@@ -353,11 +353,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #2ba6cb;
+  color: #f1f1f1;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #f1f1f1; }
   a img {
     border: 0; }
 
@@ -2086,7 +2086,7 @@ a.button:hover, a.button:focus {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #2ba6cb transparent transparent;
+  border-color: #f1f1f1 transparent transparent;
   right: 5px;
   left: auto;
   margin-top: -3px; }
@@ -2382,7 +2382,7 @@ a.button:hover, a.button:focus {
           flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+    background-color: #aa1b1b; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
