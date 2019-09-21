@@ -357,7 +357,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #f1f1f1; }
+    color: #2ba6cb; }
   a img {
     border: 0; }
 
@@ -368,7 +368,7 @@ hr {
   margin: 1.25rem auto;
   border-top: 0;
   border-right: 0;
-  border-bottom: 1px solid #cacaca;
+  border-bottom: 1px solid #2ba6cb;
   border-left: 0; }
 
 ul,
