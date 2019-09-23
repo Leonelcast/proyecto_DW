@@ -57,3 +57,121 @@
   height: 200px ;
 }
 
+/*------------------------------------------------------------- CATEGORIA X ESTTILOS -------------------------------------------------------------*/
+
+a{
+  color: black;
+}
+
+.CategoryHeader{
+  margin-left:75px;
+  margin-right: 75px;
+}
+
+.CategoryBody{
+  margin-left:75px;
+  margin-right: 75px;
+}
+
+.CategoryNavSubCategory{
+  float: left;
+}
+
+.CategoryNavVerticalMenu{
+  float: right;
+  right: 0px;
+}
+
+.ImgHeader{
+  position: relative;
+}
+
+.ImgCategory{
+  position: relative;
+}
+
+.OverlayHeader{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 380px 0;
+  text-align: center;
+  font-size: xx-large;
+  color:white;
+}
+
+.OverlayCategory{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #77777777;
+  padding: 70px 0;
+  text-align: center;
+  color:white;
+}
+
+/*
+.OverlayArticle{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #77777777;
+  text-align: center;
+}
+
+.OverlayArticle img{
+  height: 65px;
+  width: 65px;
+  background-color: black;
+  border-radius: 15px;
+}
+*/
+
+.ImgCategory:hover .OverlayCategory S{
+  background-color: black;
+}
+
+.CategoryArticles C{
+  float:right;
+}
+
+.Pages{
+  text-align: center;
+}
+
+.CategoryAdvertisement{
+  text-align: center;
+}
+
+.CategorySidebar h5{
+  border-bottom: 2px solid black;
+}
+
+.CategorySidebar p{
+  font-size: 15px;
+}
+
+.CategorySidebar T{
+  background-color: black;
+  border-bottom: 3px solid black;
+  color: white;
+  padding-top: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.ImgSidebar{
+  height: 75px;
+  width: 75px;
+  background-color: lightgray;
+  border-radius: 35px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
