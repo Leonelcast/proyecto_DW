@@ -47,12 +47,19 @@
 #descripcionNoticia{
   height: 200px ;
 }
+#descripcionMiniatura{
+  height: 100px;
+}
 #headerWhite{
 color: white;
+}
+#carrousel{
+  background-color: #996767;
 }
 #headerWhite:hover {
  color: #2ba6cb;
 }
+
 #articleTitle{
   text-align: center;
 }
