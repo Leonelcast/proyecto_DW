@@ -83,6 +83,7 @@ footer{
   width: 100%;
   height: 20px;
 }
+
 /*------------------------------------------------------------- CATEGORIA X ESTTILOS -------------------------------------------------------------*/
 
 a{
@@ -113,6 +114,14 @@ a{
 
 .ImgCategory{
   position: relative;
+}
+
+#CategoryWhite{
+  color: white;
+}
+
+#CategoryWhite:hover{
+  color: #2ba6cb;
 }
 
 .OverlayHeader{
@@ -212,21 +221,99 @@ a{
 
 /*------------------------------------------------------------ SUBCATEGORIA X ESTTILOS -----------------------------------------------------------*/
 
-#IH2{
-  height: 204px;
-  width: 595px;
-}
-
-#IH2{
+#IH1{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 #IH2{
+  height: 204px;
+  width: 955px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#IH3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#IH4{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------- CATEGORIA Y ESTTILOS -------------------------------------------------------------*/
+
+.ImgCategoryY{
+  position: relative;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.OverlayCategoryY{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #77777717;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+}
+
+.ImgCategoryY:hover .OverlayCategoryY S{
+  background-color: black;
+}
+
+.CategoryNavSubCategoryY{
+  text-align: center;
+}
+
+#ImgArtSidebar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 280px;
+  width: 325px;
+}
+
+.EditorPicks{
+  text-align: center;
+}
+
+.EditorPicks img{
+  height: 85px;
+  width: 120px;
+}
+
+.EditorPicks h5{
+  text-align: left;
+}
+
+.CategoryArticlesY{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.CategoryAdvertisementBody{
+  text-align: center;
+}
+
+.CategoryAdvertisementBody img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 210px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
+
