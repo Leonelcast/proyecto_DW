@@ -53,7 +53,36 @@ color: white;
 #headerWhite:hover {
  color: #2ba6cb;
 }
-
+#articleTitle{
+  text-align: center;
+}
+#sub{
+  color: grey;
+  font-size: 120%;
+  text-align: center;
+}
+#descripcion{
+  text-align: left;
+}
+#user{
+  width: 7%;
+}
+#ad{
+  padding-left: 10%;
+  width: 32%;
+}
+#switchAd{
+  width: 70%;
+}
+footer{
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+#banner{
+  width: 100%;
+  height: 20px;
+}
 /*------------------------------------------------------------- CATEGORIA X ESTTILOS -------------------------------------------------------------*/
 
 a{
