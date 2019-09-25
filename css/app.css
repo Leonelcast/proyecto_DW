@@ -68,6 +68,13 @@ color: white;
   font-size: 120%;
   text-align: center;
 }
+iframe{
+  width: 100%;
+}
+#nike{
+  width: 100%;
+  height: 7%;
+}
 #descripcion{
   text-align: left;
 }
@@ -77,6 +84,9 @@ color: white;
 #ad{
   padding-left: 10%;
   width: 32%;
+}
+#comments{
+  background-color: #996767;
 }
 #switchAd{
   width: 70%;
