@@ -190,7 +190,7 @@ a{
 */
 
 .ImgCategory:hover .OverlayCategory S{
-  background-color: black;
+  background-color: grey;
 }
 
 .CategoryArticles img{
@@ -339,3 +339,21 @@ a{
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+/*------------------------------------------------------------ SUBCATEGORIA Y ESTTILOS -----------------------------------------------------------*/
+
+.ImgSubCategoryY{
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.ImgMidSubCategoryY{
+  position: relative;
+  margin-top: 2px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
