@@ -648,7 +648,7 @@
                                         <button class="button" type="button" data-toggle="update-subscription">+
                                             Subscription</button>
                                         <div class="dropdown-pane" id="update-subscription" data-dropdown>
-                                            <label>Time:                                                <select>
+                                            <label>Time: <select>
                                                     <option value="6Months">6 Months</option>
                                                     <option value="1Year">1 Year</option>
                                                 </select>
@@ -658,7 +658,49 @@
                                         <br>
                                     </div>
                                     <div class="tabs-panel" id="infopanel6">
-                                        <p>SubSix</p>
+                                        <h4>Seguridad</h4>
+                                        <hr>
+                                        <p>Nombre de Usuario: <span>Username</span></p>
+                                        <p>Correo Electronico: <span>username@publicnews.com</span></p>
+                                        <p>Contraseña: <span>*************</span></p>
+                                        <button class="button" type="button" data-toggle="update-username">+
+                                            Username</button>
+                                        <div class="dropdown-pane" id="update-username" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write your new username"></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-email">+
+                                            Email</button>
+                                        <div class="dropdown-pane" id="update-email" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write your new email"></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-password">+
+                                            Password</button>
+                                        <div class="dropdown-pane" id="update-password" data-dropdown>
+                                            <label>Update:
+                                                <input type="password" id="password"
+                                                    placeholder="Write your new password"
+                                                    aria-describedby="exampleHelpText" required>
+                                                <span class="form-error">
+                                                    Este campo es obligatorio!
+                                                </span>
+                                            </label>
+                                            <label>Re-enter Password
+                                                <input type="password" placeholder="Write your new password again"
+                                                    aria-describedby="exampleHelpText2" required pattern="alpha_numeric"
+                                                    data-equalto="password">
+                                                <span class="form-error">
+                                                    Hey, passwords are supposed to match!
+                                                </span>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
                                     </div>
                                 </div>
                             </div>
