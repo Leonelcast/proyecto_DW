@@ -95,6 +95,10 @@ iframe{
   width: 100%;
 
 }
+#background{
+  background-image: url("../images/Wallpaper.jpg");
+  
+}
 #footer1{
   text-align: center;
   background-color: #2c3e50;
