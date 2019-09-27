@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin User</title>
+    <title>Moderator User</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
@@ -54,7 +54,7 @@
                         <div class="cell large-6">
                             <section class="UserBtn">
                                 <a href="#0" class="button">Editar Perfil</a>
-                                <a href="crearArticulo.html" class="button">Crear Articulo</a>
+                                <a href="#0" class="button">Cerrar Sesion</a>
                             </section>
                         </div>
                         <div class="cell large-1"></div>
@@ -93,36 +93,42 @@
                                             <div class="commentario">
                                                 <h6><a href="">Leonel Castañeda</a></h6>
                                                 <p> 9 de septiembre, 2019</p>
-                                                <a href="./articuloTesla.html"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
-                                                    quam praesentium
-                                                    velit et, reprehenderit aperiam accusantium eius earum unde ab
-                                                    adipisci voluptas
-                                                    esse in ipsam quas dolore ipsa non!</p></a>
-                                                    <a href="" class="button">Censurar contenido</a>
+                                                <a href="./articuloTesla.html">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
+                                                        quam praesentium
+                                                        velit et, reprehenderit aperiam accusantium eius earum unde ab
+                                                        adipisci voluptas
+                                                        esse in ipsam quas dolore ipsa non!</p>
+                                                </a>
+                                                <a href="" class="button">Censurar contenido</a>
                                             </div>
                                             <img id="user" src="./images//User man.png" alt="imagen de perfil">
                                             <div class="commentario">
                                                 <h6><a href="">Dylan Rodas</a></h6>
                                                 <p> 10 de enero, 2019</p>
-                                               <a href="./articuloApple.html"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
-                                                    quam praesentium
-                                                    velit et, reprehenderit aperiam accusantium eius earum unde ab
-                                                    adipisci voluptas
-                                                    esse in ipsam quas dolore ipsa non!</p></a>
-                                                    <a href="" class="button">Censurar contenido</a>
+                                                <a href="./articuloApple.html">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
+                                                        quam praesentium
+                                                        velit et, reprehenderit aperiam accusantium eius earum unde ab
+                                                        adipisci voluptas
+                                                        esse in ipsam quas dolore ipsa non!</p>
+                                                </a>
+                                                <a href="" class="button">Censurar contenido</a>
                                             </div>
                                             <img id="user" src="./images//User woman.png" alt="imagen de perfil">
                                             <div class="commentario">
                                                 <h6><a href="">Maria Flores</a></h6>
                                                 <p> 15 de diciembre, 2019</p>
-                                               <a href="./articuloNintendo.html"> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
-                                                    quam praesentium
-                                                    velit et, reprehenderit aperiam accusantium eius earum unde ab
-                                                    adipisci voluptas
-                                                    esse in ipsam quas dolore ipsa non!</p></a>
-                                                    <a href="" class="button">Censurar contenido</a>
+                                                <a href="./articuloNintendo.html">
+                                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
+                                                        quam praesentium
+                                                        velit et, reprehenderit aperiam accusantium eius earum unde ab
+                                                        adipisci voluptas
+                                                        esse in ipsam quas dolore ipsa non!</p>
+                                                </a>
+                                                <a href="" class="button">Censurar contenido</a>
                                             </div>
-                                          
+
 
                                         </div>
                                     </div>
@@ -212,7 +218,38 @@
                                         <p>SubFour</p>
                                     </div>
                                     <div class="tabs-panel" id="infopanel5">
-                                        <p>SubFive</p>
+                                        <h4>Informacion de Pago</h4>
+                                        <hr>
+                                        <p>Datos de la tarjeta: <span>XXXX-XXXX-XXXX-X117</span></p>
+                                        <p>Direccion de Facturacion: <span>Lorem ipsum...</span></p>
+                                        <p>Tiempo de suscripcion: <span>9 meses restantes.</span></p>
+                                        <button class="button" type="button" data-toggle="update-card">+
+                                            Card</button>
+                                        <div class="dropdown-pane" id="update-card" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write your card number"></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-billing-address">+
+                                            Billing Address</button>
+                                        <div class="dropdown-pane" id="update-billing-address" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write your billing address"></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-subscription">+
+                                            Subscription</button>
+                                        <div class="dropdown-pane" id="update-subscription" data-dropdown>
+                                            <label>Time: <select>
+                                                    <option value="6Months">6 Months</option>
+                                                    <option value="1Year">1 Year</option>
+                                                </select>
+                                            </label>
+                                            <button type="tiny button" class="success button">Buy</button>
+                                        </div>
+                                        <br>
                                     </div>
                                     <div class="tabs-panel" id="infopanel6">
                                         <p>SubSix</p>
