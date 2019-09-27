@@ -8,12 +8,6 @@
     <title>Admin User</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-
 </head>
 
 <body>
@@ -36,12 +30,871 @@
     </header>
 
     <section class="UserHeader">
-        
+        <div class="grid-x">
+            <div class="cell large-1"></div>
+            <div class="cell large-10">
+                <section class="UserHeaderTop">
+                    <img id="ImgUserHeader" src="./images/Background Earth.jpg" alt="image for header">
+                </section>
+                <section class="UserHeaderBot">
+                    <div class="grid-x">
+                        <div class="cell large-1"></div>
+                        <div class="cell large-4">
+                            <div class="media-object">
+                                <div class="media-object-section">
+                                    <img class="thumbnail" id="ImgUser" src="./images/User man.png"
+                                        alt="image for user">
+                                </div>
+                                <div class="media-object-section">
+                                    <h2>Username</h2>
+                                    <p>Administrator</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell large-6">
+                            <section class="UserBtn">
+                                <a href="#0" class="button">Editar Perfil</a>
+                                <a href="crearArticulo.html" class="button">Crear Articulo</a>
+                            </section>
+                        </div>
+                        <div class="cell large-1"></div>
+                    </div>
+                </section>
+            </div>
+            <div class="cell large-1"></div>
+        </div>
     </section>
 
     <section class="UserBody">
+        <div class="grid-x">
+            <div class="cell large-1"></div>
+            <div class="cell large-10">
+                <ul class="tabs" data-tabs id="user-tabs">
+                    <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Pagina Principal</a></li>
+                    <li class="tabs-title"><a href="#panel2">Informacion</a></li>
+                    <li class="tabs-title"><a href="#panel3">Amigos</a></li>
+                    <li class="tabs-title"><a href="#panel4">Fotos</a></li>
+                    <li class="tabs-title"><a href="#panel5">Articulos</a></li>
+                    <li class="tabs-title"><a href="#panel6">Mas...</a></li>
+                </ul>
 
+                <div class="tabs-content" data-tabs-content="user-tabs">
+                    <div class="tabs-panel is-active" id="panel1">
+                        <h4>Administracion de Usuarios</h4>
+                        <br>
+                        <div class="grid-x">
+                            <div class="cell large-6">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User man.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Dylan Rodas</a></h6>
+                                        <div class="grid-x">
+                                            <div class="cell large-3">
+                                                <p>Active:</p>
+                                            </div>
+                                            <div class="cell large-9">
+                                                <div class="ActiveUser">
+                                                    <div class="switch tiny">
+                                                        <input class="switch-input" id="tinySwitch1" type="checkbox"
+                                                            name="Switch1">
+                                                        <label class="switch-paddle" for="tinySwitch1">
+                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
+                                        <p>Subscription until December 31, 2021</p>
+                                        <button class="button" type="button" data-toggle="change-subscription1">Change
+                                            Subscription</button>
+                                        <div class="dropdown-pane" id="change-subscription1" data-dropdown>
+                                            <label>Year
+                                                <select>
+                                                    <option value="2019">2019</option>
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                </select>
+                                            </label>
+                                            <label>Month
+                                                <select>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </label>
+                                            <label>Day<input type="number" value="1"></label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-role1">Change
+                                            Role</button>
+                                        <div class="dropdown-pane" id="change-role1" data-dropdown>
+                                            <label>Role
+                                                <select>
+                                                    <option value="Free">Free</option>
+                                                    <option value="Premium">Premium</option>
+                                                    <option value="Author">Author</option>
+                                                    <option value="Moderator">Moderator</option>
+                                                    <option value="Administrator">Administrator</option>
+                                                </select>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User woman.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Abuelita Leiva</a></h6>
+                                        <div class="grid-x">
+                                            <div class="cell large-3">
+                                                <p>Active:</p>
+                                            </div>
+                                            <div class="cell large-9">
+                                                <div class="ActiveUser">
+                                                    <div class="switch tiny">
+                                                        <input class="switch-input" id="tinySwitch2" type="checkbox"
+                                                            name="Switch2">
+                                                        <label class="switch-paddle" for="tinySwitch2">
+                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
+                                        <p>Subscription until October 25, 2020</p>
+                                        <button class="button" type="button" data-toggle="change-subscription2">Change
+                                            Subscription</button>
+                                        <div class="dropdown-pane" id="change-subscription2" data-dropdown>
+                                            <label>Year
+                                                <select>
+                                                    <option value="2019">2019</option>
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                </select>
+                                            </label>
+                                            <label>Month
+                                                <select>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </label>
+                                            <label>Day<input type="number" value="1"></label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-role2">Change
+                                            Role</button>
+                                        <div class="dropdown-pane" id="change-role2" data-dropdown>
+                                            <label>Role
+                                                <select>
+                                                    <option value="Free">Free</option>
+                                                    <option value="Premium">Premium</option>
+                                                    <option value="Author">Author</option>
+                                                    <option value="Moderator">Moderator</option>
+                                                    <option value="Administrator">Administrator</option>
+                                                </select>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
+                                                alt="image for members">
+                                        </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Juanito Tacos</a></h6>
+                                        <div class="grid-x">
+                                            <div class="cell large-3">
+                                                <p>Active:</p>
+                                            </div>
+                                            <div class="cell large-9">
+                                                <div class="ActiveUser">
+                                                    <div class="switch tiny">
+                                                        <input class="switch-input" id="tinySwitch3" type="checkbox"
+                                                            name="Switch3">
+                                                        <label class="switch-paddle" for="tinySwitch3">
+                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Role:&nbsp;&nbsp;<span>Free Member</span></p>
+                                        <p>Subscription until January 20, 2021</p>
+                                        <button class="button" type="button" data-toggle="change-subscription3">Change
+                                            Subscription</button>
+                                        <div class="dropdown-pane" id="change-subscription3" data-dropdown>
+                                            <label>Year
+                                                <select>
+                                                    <option value="2019">2019</option>
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                </select>
+                                            </label>
+                                            <label>Month
+                                                <select>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </label>
+                                            <label>Day<input type="number" value="1"></label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-role3">Change
+                                            Role</button>
+                                        <div class="dropdown-pane" id="change-role3" data-dropdown>
+                                            <label>Role
+                                                <select>
+                                                    <option value="Free">Free</option>
+                                                    <option value="Premium">Premium</option>
+                                                    <option value="Author">Author</option>
+                                                    <option value="Moderator">Moderator</option>
+                                                    <option value="Administrator">Administrator</option>
+                                                </select>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell large-6">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
+                                                alt="image for members">
+                                        </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Will Smith</a></h6>
+                                        <div class="grid-x">
+                                            <div class="cell large-3">
+                                                <p>Active:</p>
+                                            </div>
+                                            <div class="cell large-9">
+                                                <div class="ActiveUser">
+                                                    <div class="switch tiny">
+                                                        <input class="switch-input" id="tinySwitch4" type="checkbox"
+                                                            name="Switch4">
+                                                        <label class="switch-paddle" for="tinySwitch4">
+                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Role:&nbsp;&nbsp;<span>Author Member</span></p>
+                                        <p>Categories:&nbsp;&nbsp;<span>CtName1, CtName2, CtName3...</span></p>
+                                        <p>Subscription until August 15, 2020</p>
+                                        <button class="button" type="button" data-toggle="change-subscription4">Change
+                                            Subscription</button>
+                                        <div class="dropdown-pane" id="change-subscription4" data-dropdown>
+                                            <label>Year
+                                                <select>
+                                                    <option value="2019">2019</option>
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                </select>
+                                            </label>
+                                            <label>Month
+                                                <select>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </label>
+                                            <label>Day<input type="number" value="1"></label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-role4">Change
+                                            Role</button>
+                                        <div class="dropdown-pane" id="change-role4" data-dropdown>
+                                            <label>Role
+                                                <select>
+                                                    <option value="Free">Free</option>
+                                                    <option value="Premium">Premium</option>
+                                                    <option value="Author">Author</option>
+                                                    <option value="Moderator">Moderator</option>
+                                                    <option value="Administrator">Administrator</option>
+                                                </select>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-categories1">Change
+                                            Categories</button>
+                                        <div class="dropdown-pane" id="change-categories1" data-dropdown>
+                                            <legend>Choose Categories</legend>
+                                            <input id="C1" type="checkbox"><label for="C1">CategoryName 1</label><br>
+                                            <input id="C2" type="checkbox"><label for="C2">CategoryName 2</label><br>
+                                            <input id="C3" type="checkbox"><label for="C3">CategoryName 3</label><br>
+                                            <input id="C4" type="checkbox"><label for="C4">CategoryName 4</label><br>
+                                            <input id="C5" type="checkbox"><label for="C5">CategoryName 5</label><br>
+                                            <input id="C6" type="checkbox"><label for="C6">CategoryName 6</label><br>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User woman.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Scarlett Johansson</a></h6>
+                                        <div class="grid-x">
+                                            <div class="cell large-3">
+                                                <p>Active:</p>
+                                            </div>
+                                            <div class="cell large-9">
+                                                <div class="ActiveUser">
+                                                    <div class="switch tiny">
+                                                        <input class="switch-input" id="tinySwitch5" type="checkbox"
+                                                            name="Switch5">
+                                                        <label class="switch-paddle" for="tinySwitch5">
+                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Role:&nbsp;&nbsp;<span>Author Member</span></p>
+                                        <p>Categories:&nbsp;&nbsp;<span>CtName4, CtName5, CtName6...</span></p>
+                                        <p>Subscription until November 10, 2019</p>
+                                        <button class="button" type="button" data-toggle="change-subscription5">Change
+                                            Subscription</button>
+                                        <div class="dropdown-pane" id="change-subscription5" data-dropdown>
+                                            <label>Year
+                                                <select>
+                                                    <option value="2019">2019</option>
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                </select>
+                                            </label>
+                                            <label>Month
+                                                <select>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </label>
+                                            <label>Day<input type="number" value="1"></label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-role5">Change
+                                            Role</button>
+                                        <div class="dropdown-pane" id="change-role5" data-dropdown>
+                                            <label>Role
+                                                <select>
+                                                    <option value="Free">Free</option>
+                                                    <option value="Premium">Premium</option>
+                                                    <option value="Author">Author</option>
+                                                    <option value="Moderator">Moderator</option>
+                                                    <option value="Administrator">Administrator</option>
+                                                </select>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-categories2">Change
+                                            Categories</button>
+                                        <div class="dropdown-pane" id="change-categories2" data-dropdown>
+                                            <legend>Choose Categories</legend>
+                                            <input id="C1" type="checkbox"><label for="C1">CategoryName 1</label><br>
+                                            <input id="C2" type="checkbox"><label for="C2">CategoryName 2</label><br>
+                                            <input id="C3" type="checkbox"><label for="C3">CategoryName 3</label><br>
+                                            <input id="C4" type="checkbox"><label for="C4">CategoryName 4</label><br>
+                                            <input id="C5" type="checkbox"><label for="C5">CategoryName 5</label><br>
+                                            <input id="C6" type="checkbox"><label for="C6">CategoryName 6</label><br>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User man.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Leonel Castañeda</a></h6>
+                                        <div class="grid-x">
+                                            <div class="cell large-3">
+                                                <p>Active:</p>
+                                            </div>
+                                            <div class="cell large-9">
+                                                <div class="ActiveUser">
+                                                    <div class="switch tiny">
+                                                        <input class="switch-input" id="tinySwitch6" type="checkbox"
+                                                            name="Switch6">
+                                                        <label class="switch-paddle" for="tinySwitch6">
+                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
+                                        <p>Subscription until September 27, 2019</p>
+                                        <button class="button" type="button" data-toggle="change-subscription6">Change
+                                            Subscription</button>
+                                        <div class="dropdown-pane" id="change-subscription6" data-dropdown>
+                                            <label>Year
+                                                <select>
+                                                    <option value="2019">2019</option>
+                                                    <option value="2020">2020</option>
+                                                    <option value="2021">2021</option>
+                                                    <option value="2022">2022</option>
+                                                </select>
+                                            </label>
+                                            <label>Month
+                                                <select>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </label>
+                                            <label>Day<input type="number" value="1"></label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="change-role6">Change
+                                            Role</button>
+                                        <div class="dropdown-pane" id="change-role6" data-dropdown>
+                                            <label>Role
+                                                <select>
+                                                    <option value="Free">Free</option>
+                                                    <option value="Premium">Premium</option>
+                                                    <option value="Author">Author</option>
+                                                    <option value="Moderator">Moderator</option>
+                                                    <option value="Administrator">Administrator</option>
+                                                </select>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="Pages">
+                            <ul class="pagination" role="navigation" aria-label="Pagination">
+                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                                <li><a href="#0" aria-label="Page 2">2</a></li>
+                                <li><a href="#0" aria-label="Page 3">3</a></li>
+                                <li><a href="#0" aria-label="Page 4">4</a></li>
+                                <li class="ellipsis" aria-hidden="true"></li>
+                                <li><a href="#0" aria-label="Page 9">9</a></li>
+                                <li><a href="#0" aria-label="Page 10">10</a></li>
+                                <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="tabs-panel" id="panel2">
+                        <div class="grid-x">
+                            <div class="cell large-2">
+                                <ul class="tabs vertical" data-tabs id="info-tabs">
+                                    <li class="tabs-title is-active"><a href="#infopanel1"
+                                            aria-selected="true">Informacion General</a>
+                                    </li>
+                                    <li class="tabs-title"><a href="#infopanel2">Formacion y Empleo</a></li>
+                                    <li class="tabs-title"><a href="#infopanel3">Ubicaciones Conocidas</a></li>
+                                    <li class="tabs-title"><a href="#infopanel4">Contacto</a></li>
+                                    <li class="tabs-title"><a href="#infopanel5">Informacion de Pago</a></li>
+                                    <li class="tabs-title"><a href="#infopanel6">Seguridad</a></li>
+                                </ul>
+                            </div>
+                            <div class="cell large-10">
+                                <div class="tabs-content" data-tabs-content="info-tabs">
+                                    <div class="tabs-panel is-active" id="infopanel1">
+                                        <h4>Informacion del Perfil</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-info">+ Update</button>
+                                        <div class="dropdown-pane" id="update-info" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write something..."></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Otros Nombres (Apodos)</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-nicknames">+
+                                            Update</button>
+                                        <div class="dropdown-pane" id="update-nicknames" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write something..."></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Citas Favoritas</h4>
+                                        <hr>
+                                        <p>"Lorem ipsum..."</p>
+                                        <button class="button" type="button" data-toggle="update-quotes">+
+                                            Update</button>
+                                        <div class="dropdown-pane" id="update-quotes" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write something..."></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <div class="tabs-panel" id="infopanel2">
+                                        <p>SubTwo</p>
+                                    </div>
+                                    <div class="tabs-panel" id="infopanel3">
+                                        <p>SubThree</p>
+                                    </div>
+                                    <div class="tabs-panel" id="infopanel4">
+                                        <p>SubFour</p>
+                                    </div>
+                                    <div class="tabs-panel" id="infopanel5">
+                                        <p>SubFive</p>
+                                    </div>
+                                    <div class="tabs-panel" id="infopanel6">
+                                        <p>SubSix</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs-panel" id="panel3">
+                        <div class="grid-x">
+                            <div class="cell large-6">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User man.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Dylan Rodas</a></h6>
+                                        <p>Connected <span class="success badge">&nbsp;</span></p>
+                                        <button type="tiny button" class="alert button">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User woman.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Abuelita Leiva</a></h6>
+                                        <p>Last login 10min ago</p>
+                                        <button type="tiny button" class="alert button">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
+                                                alt="image for members">
+                                        </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Juanito Tacos</a></h6>
+                                        <p>Last login 2h ago</p>
+                                        <button type="tiny button" class="alert button">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell large-6">
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
+                                                alt="image for members">
+                                        </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Will Smith</a></h6>
+                                        <p>Last login 16h ago</p>
+                                        <button type="tiny button" class="alert button">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User woman.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Scarlett Johansson</a></h6>
+                                        <p>Last login yesterday</p>
+                                        <button type="tiny button" class="alert button">Delete</button>
+                                    </div>
+                                </div>
+                                <div class="media-object">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img class="ImgSidebar" src="./images/User man.png"
+                                                alt="image for members"> </a>
+                                    </div>
+                                    <div class="media-object-section">
+                                        <h6><a href="#0">Leonel Castañeda</a></h6>
+                                        <p>Connected <span class="success badge">&nbsp;</span></p>
+                                        <button type="tiny button" class="alert button">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="Pages">
+                            <ul class="pagination" role="navigation" aria-label="Pagination">
+                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                                <li><a href="#0" aria-label="Page 2">2</a></li>
+                                <li><a href="#0" aria-label="Page 3">3</a></li>
+                                <li><a href="#0" aria-label="Page 4">4</a></li>
+                                <li class="ellipsis" aria-hidden="true"></li>
+                                <li><a href="#0" aria-label="Page 9">9</a></li>
+                                <li><a href="#0" aria-label="Page 10">10</a></li>
+                                <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="tabs-panel" id="panel4">
+                        <div class="grid-x">
+                            <div class="cell large-4">
+                                <div class="grid-y">
+                                    <div class="cell large-6">
+                                        <div class="ImgUserPhotos">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg"
+                                                    alt="image for user photos"></a>
+                                        </div>
+                                    </div>
+                                    <div class="cell large-6">
+                                        <div class="ImgUserPhotos">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg"
+                                                    alt="image for user photos"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell large-4">
+                                <div class="grid-y">
+                                    <div class="cell large-6">
+                                        <div class="ImgUserPhotos">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg"
+                                                    alt="image for user photos"></a>
+                                        </div>
+                                    </div>
+                                    <div class="cell large-6">
+                                        <div class="ImgUserPhotos">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg"
+                                                    alt="image for user photos"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell large-4">
+                                <div class="grid-y">
+                                    <div class="cell large-6">
+                                        <div class="ImgUserPhotos">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg"
+                                                    alt="image for user photos"></a>
+                                        </div>
+                                    </div>
+                                    <div class="cell large-6">
+                                        <div class="ImgUserPhotos">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg"
+                                                    alt="image for user photos"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="Pages">
+                            <ul class="pagination" role="navigation" aria-label="Pagination">
+                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                                <li><a href="#0" aria-label="Page 2">2</a></li>
+                                <li><a href="#0" aria-label="Page 3">3</a></li>
+                                <li><a href="#0" aria-label="Page 4">4</a></li>
+                                <li class="ellipsis" aria-hidden="true"></li>
+                                <li><a href="#0" aria-label="Page 9">9</a></li>
+                                <li><a href="#0" aria-label="Page 10">10</a></li>
+                                <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="tabs-panel" id="panel5">
+                        <section class="CategoryArticles">
+                            <div class="grid-x">
+                                <div class="cell large-4">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img src="./images/Lorem300.jpg" alt="image for article"> </a>
+                                    </div>
+                                </div>
+                                <div class="cell large-8">
+                                    <div class="media-object-section">
+                                        <h3><a href="#0">Article Title.</a></h3>
+                                        <a class="tiny button" href="#0">SubCategoryName</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="#0">Author</a>
+                                        <span> - Feb 31,2019</span>
+                                        <C><a class="tiny button" href="#0">0</a></C>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                            ligula eget
+                                            dolor.
+                                            Aenean massa. Cum
+                                            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                                            mus.
+                                            Donec quam
+                                            felis, ultricies
+                                            nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                            Donec pede
+                                            justo,
+                                            fringilla vel,
+                                            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                                            venenatis
+                                            vitae,
+                                            justo...</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="grid-x">
+                                <div class="cell large-4">
+                                    <div class="media-object-section">
+                                        <a href="#0"> <img src="./images/Lorem300.jpg" alt="image for article"> </a>
+                                    </div>
+                                </div>
+                                <div class="cell large-8">
+                                    <div class="media-object-section">
+                                        <h3><a href="#0">Article Title.</a></h3>
+                                        <a class="tiny button" href="#0">SubCategoryName</a>&nbsp;&nbsp;&nbsp;
+                                        <a href="#0">Author</a>
+                                        <span> - Feb 31,2019</span>
+                                        <C><a class="tiny button" href="#0">0</a></C>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+                                            ligula eget
+                                            dolor.
+                                            Aenean massa. Cum
+                                            sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                                            mus.
+                                            Donec quam
+                                            felis, ultricies
+                                            nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                                            Donec pede
+                                            justo,
+                                            fringilla vel,
+                                            aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                                            venenatis
+                                            vitae,
+                                            justo...</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <br>
+                        <div class="Pages">
+                            <ul class="pagination" role="navigation" aria-label="Pagination">
+                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
+                                <li><a href="#0" aria-label="Page 2">2</a></li>
+                                <li><a href="#0" aria-label="Page 3">3</a></li>
+                                <li><a href="#0" aria-label="Page 4">4</a></li>
+                                <li class="ellipsis" aria-hidden="true"></li>
+                                <li><a href="#0" aria-label="Page 9">9</a></li>
+                                <li><a href="#0" aria-label="Page 10">10</a></li>
+                                <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="tabs-panel" id="panel6">
+                        <p>Mas... pero anuncios.</p>
+                        <aside class="CategoryAdvertisement">
+                            <h6>- Advertisement -</h6>
+                            <a href="#0"> <img src="./images/Retro-Pizza-Advertising-Poster.jpg"
+                                    alt="image for advertising"> </a>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            <div class="cell large-1"></div>
+        </div>
     </section>
+    
+    <br>
 
     <footer>
         <section class="FooterTop">
@@ -50,25 +903,36 @@
                 <div class="cell large-1"></div>
                 <div class="cell large-3">
                     <div class="media-object-section">
-                        <b><h5>LOCATION</h5></b>
+                        <b>
+                            <h5>LOCATION</h5>
+                        </b>
                         <p>KM 21.5 Carretera a El Salvador, Universidad del Istmo de Guatemala.</p>
                     </div>
                 </div>
                 <div class="cell large-3">
                     <div class="media-object-section">
-                        <b><h5>AROUND THE WEB</h5></b>
+                        <b>
+                            <h5>AROUND THE WEB</h5>
+                        </b>
                         <nav>
-                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/facebook.png" alt="image for contact"></a>&nbsp;&nbsp;
-                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/twitter.png" alt="image for contact"></a>&nbsp;&nbsp;
-                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/instagram.png" alt="image for contact"></a>&nbsp;&nbsp;
-                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/youtube.png" alt="image for contact"></a>&nbsp;&nbsp;
-                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/Github.png" alt="image for contact"></a>
+                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/facebook.png"
+                                    alt="image for contact"></a>&nbsp;&nbsp;
+                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/twitter.png"
+                                    alt="image for contact"></a>&nbsp;&nbsp;
+                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/instagram.png"
+                                    alt="image for contact"></a>&nbsp;&nbsp;
+                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/youtube.png"
+                                    alt="image for contact"></a>&nbsp;&nbsp;
+                            <a href="#0" id="Fsocial"><img class="ImgContact" src="./images/Github.png"
+                                    alt="image for contact"></a>
                         </nav>
                     </div>
                 </div>
                 <div class="cell large-4">
                     <div class="media-object-section">
-                        <b><h5>ABOUT US</h5></b>
+                        <b>
+                            <h5>ABOUT US</h5>
+                        </b>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                             Aenean massa.</p>
                         <p>Contact us: <a href="#0" id="Fcontact">info@publicnews.com</a></p>
@@ -87,6 +951,11 @@
             </div>
         </section>
     </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
