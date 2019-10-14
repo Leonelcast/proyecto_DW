@@ -440,12 +440,25 @@ a{
   padding-top: 50px;
 }
 
+.UserAdvertisement{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ImgUserPhotos{
   height: 350px;
   width: 350px;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#panel4{
+  text-align: center;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
