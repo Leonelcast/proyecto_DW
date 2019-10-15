@@ -1,0 +1,36 @@
+{
+  "name": "foundation-6.5.1-custom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonelcast/proyecto_DW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonelcast/proyecto_DW/issues"
+  },
+  "homepage": "https://github.com/Leonelcast/proyecto_DW#readme",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "foundation-sites": "^6.5.3",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "webpack-cli": "^3.3.9"
+  }
+}

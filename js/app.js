@@ -1,1 +1,2 @@
-$(document).foundation()
+import '../css/style.scss'
+$(document).foundation();
