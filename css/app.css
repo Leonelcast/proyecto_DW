@@ -409,7 +409,7 @@ a{
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-/*-------------------------------------------------------------- ADMIN USER ESTTILOS -------------------------------------------------------------*/
+/*---------------------------------------------------------------- USERS ESTTILOS ----------------------------------------------------------------*/
 
 #ImgUserHeader{
   display: block;
@@ -458,6 +458,24 @@ a{
 }
 
 #panel4{
+  text-align: center;
+}
+
+.ModuleAdvertisementA{
+  background-color: lightgrey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+
+.ModuleAdvertisementB{
+  background-color: grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
 }
 
