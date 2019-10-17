@@ -1,9 +1,25 @@
 /*------------------------------------------------------------- CATEGORIA Y ESTILOS --------------------------------------------------------------*/
 
+#IH1 {
+    @extend %imagen-centrada;
+}
+
+#IH2 {
+    height: 204px;
+    width: 955px;
+    @extend %imagen-centrada;
+}
+
+#IH3 {
+    @extend %imagen-centrada;
+}
+
+#IH4 {
+    @extend %imagen-centrada;
+}
+
 .ImgCategoryY {
     position: relative;
-    margin-left: 1px;
-    margin-right: 1px;
 
     &:hover {
         .OverlayCategoryY {
@@ -20,8 +36,8 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #77777717;
-    padding: 80px 0;
+    background-color: #77777777;
+    padding: 70px 0;
     text-align: center;
     color: $colorblanco;
 }
@@ -34,19 +50,6 @@
     @extend %imagen-centrada;
     height: 280px;
     width: 325px;
-}
-
-.EditorPicks {
-    text-align: center;
-
-    img {
-        height: 85px;
-        width: 120px;
-    }
-
-    h5 {
-        text-align: left;
-    }
 }
 
 .CategoryArticlesY {

@@ -20,6 +20,42 @@ a {
 
 .CategoryNavVerticalMenu {
     float: right;
+    color: $colorblanco;
+    background-color: $colornegro;
+    font-size: 12px;
+    a{
+        color: $colorblanco;
+        &:hover{
+            color: $colorenlace;
+        }
+    }
+    li{
+        background-color: $colornegro;
+    }
+}
+
+.Box{
+    position: relative;
+    .BoxTL{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .BoxTR{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .BoxBL{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .BoxBR{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 .ImgHeader {
