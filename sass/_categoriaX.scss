@@ -1,0 +1,118 @@
+/*------------------------------------------------------------- CATEGORIA X ESTILOS --------------------------------------------------------------*/
+
+a {
+    color: $colornegro;
+}
+
+.CategoryHeader {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.CategorySidebar {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.CategoryNavSubCategory {
+    float: left;
+}
+
+.CategoryNavVerticalMenu {
+    float: right;
+}
+
+.ImgHeader {
+    position: relative;
+}
+
+.ImgCategory {
+    position: relative;
+
+    &:hover {
+        .OverlayCategory {
+            S {
+                background-color: $colorgrisoscuro;
+            }
+        }
+    }
+}
+
+#CategoryWhite {
+    color: $colorblanco;
+
+    &:hover {
+        color: $colorenlace;
+    }
+}
+
+.OverlayHeader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 0;
+    text-align: center;
+    font-size: xx-large;
+    color: $colorblanco;
+}
+
+.OverlayCategory {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #77777777;
+    padding: 70px 0;
+    text-align: center;
+    color: $colorblanco;
+}
+
+.CategoryArticles {
+    img {
+        @extend %imagen-centrada;
+    }
+
+    C {
+        float: right;
+    }
+}
+
+.Pages {
+    text-align: center;
+}
+
+.CategoryAdvertisement {
+    text-align: center;
+}
+
+.CategorySidebar {
+    h5 {
+        border-bottom: 2px solid $colornegro;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    T {
+        background-color: $colornegro;
+        border-bottom: 3px solid $colornegro;
+        color: $colorblanco;
+        padding-top: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+}
+
+.ImgSidebar {
+    height: 75px;
+    width: 75px;
+    background-color: $colorgrisclaro;
+    border-radius: 35px;
+    @extend %imagen-centrada;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/

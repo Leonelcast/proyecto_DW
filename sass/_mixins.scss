@@ -1,0 +1,14 @@
+// Mixins
+@mixin border-radius($radio) {
+    -webkit-border-radius: $radio;
+    -moz-border-radius: $radio;
+    -ms-border-radius: $radio;
+    border-radius: $radio;
+}
+
+@mixin relleno($top, $bot, $right, $left) {
+    padding-top: $top;
+    padding-bottom: $bot;
+    padding-right: $right;
+    padding-left: $left;
+}

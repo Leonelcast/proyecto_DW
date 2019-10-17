@@ -1,0 +1,31 @@
+/*--------------------------------------------------------------- FOOTER ESTILOS -----------------------------------------------------------------*/
+
+.FooterTop {
+    text-align: center;
+    background-color: #2c3e50;
+    color: $colorblanco;
+}
+
+.ImgContact {
+    height: 25px;
+    width: 25px;
+    @extend %imagen-centrada;
+}
+
+#Fsocial {
+    border: 2px solid $colorblanco;
+    @include relleno(10px, 14px, 8px, 8px);
+    @include border-radius(25px);
+}
+
+#Fcontact {
+    color: $colorenlace;
+}
+
+.FooterBot {
+    text-align: center;
+    background-color: rgb(10, 10, 51);
+    color: $colorblanco;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/

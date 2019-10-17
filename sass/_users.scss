@@ -1,0 +1,57 @@
+/*---------------------------------------------------------------- USERS ESTILOS -----------------------------------------------------------------*/
+
+#ImgUserHeader {
+    @extend %imagen-centrada;
+}
+
+.UserHeaderBot {
+    padding-top: 15px;
+    text-align: center;
+
+    h2 {
+        padding-top: 40px;
+    }
+}
+
+#ImgUser {
+    height: 180px;
+    width: 180px;
+    @extend %imagen-centrada;
+    border-radius: 100px;
+}
+
+.UserBtn {
+    display: inline-block;
+    padding-top: 50px;
+}
+
+.UserAdvertisement {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+    @extend %imagen-centrada;
+}
+
+.ImgUserPhotos {
+    height: 350px;
+    width: 350px;
+    @extend %imagen-centrada;
+}
+
+#panel4 {
+    text-align: center;
+}
+
+.ModuleAdvertisementA {
+    background-color: $colorgrisclaro;
+    @include relleno(25px, 25px, 30px, 30px);
+    text-align: center;
+}
+
+.ModuleAdvertisementB {
+    background-color: $colorgrisoscuro;
+    @include relleno(25px, 25px, 30px, 30px);
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
