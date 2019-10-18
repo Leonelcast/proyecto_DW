@@ -48,13 +48,11 @@
 
 #ImgArtSidebar {
     @extend %imagen-centrada;
-    height: 280px;
-    width: 325px;
 }
 
 .CategoryArticlesY {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .CategoryAdvertisementBody {
@@ -64,6 +62,12 @@
         @extend %imagen-centrada;
         height: 210px;
     }
+}
+
+#FreePremiumY{
+    @extend %imagen-centrada;
+    height: 100px;
+    width: 100px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/

@@ -1,4 +1,4 @@
-.ImgContact, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, .ImgSidebar, .CategoryArticles img {
+.ImgContact, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, #FreePremiumY, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, #FreePremiumX, .ImgSidebar, .CategoryArticles img {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -277,6 +277,11 @@ a {
   border-radius: 35px;
 }
 
+#FreePremiumX {
+  height: 70px;
+  width: 70px;
+}
+
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------- CATEGORIA Y ESTILOS --------------------------------------------------------------*/
 #IH2 {
@@ -307,14 +312,9 @@ a {
   text-align: center;
 }
 
-#ImgArtSidebar {
-  height: 280px;
-  width: 325px;
-}
-
 .CategoryArticlesY {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .CategoryAdvertisementBody {
@@ -322,6 +322,11 @@ a {
 }
 .CategoryAdvertisementBody img {
   height: 210px;
+}
+
+#FreePremiumY {
+  height: 100px;
+  width: 100px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
