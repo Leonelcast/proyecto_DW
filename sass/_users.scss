@@ -56,4 +56,20 @@
     @extend %imagen-centrada;
 }
 
+.AdvModule{
+    text-align: center;
+    #AdvImg{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        @include volumen(400px, 300px);
+        @extend %imagen-centrada;
+    }
+}
+
+#ReportImg{
+    margin-bottom: 30px;
+    @include volumen(1000px, 350px);
+    @extend %imagen-centrada;
+}
+
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/

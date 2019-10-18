@@ -1,4 +1,4 @@
-.ImgContact, #FreePremiumU, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, #FreePremiumY, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, #FreePremiumX, .ImgSidebar, .CategoryArticles img {
+.ImgContact, #ReportImg, .AdvModule #AdvImg, #FreePremiumU, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, #FreePremiumY, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, #FreePremiumX, .ImgSidebar, .CategoryArticles img {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -354,6 +354,22 @@ a {
 #FreePremiumU {
   width: 100px;
   height: 100px;
+}
+
+.AdvModule {
+  text-align: center;
+}
+.AdvModule #AdvImg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+#ReportImg {
+  margin-bottom: 30px;
+  width: 1000px;
+  height: 350px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
