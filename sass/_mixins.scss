@@ -12,3 +12,15 @@
     padding-right: $right;
     padding-left: $left;
 }
+
+@mixin margen($top, $bot, $right, $left) {
+    margin-top: $top;
+    margin-bottom: $bot;
+    margin-right: $right;
+    margin-left: $left;
+}
+
+@mixin volumen($ancho, $altura){
+    width: $ancho;
+    height: $altura;
+}

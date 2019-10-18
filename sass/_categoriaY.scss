@@ -5,8 +5,7 @@
 }
 
 #IH2 {
-    height: 204px;
-    width: 955px;
+    @include volumen(955px, 204px);
     @extend %imagen-centrada;
 }
 
@@ -31,14 +30,9 @@
 }
 
 .OverlayCategoryY {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #77777777;
+    @extend %overlay;
     padding: 70px 0;
-    text-align: center;
+    background-color: #77777777;
     color: $colorblanco;
 }
 
@@ -65,9 +59,8 @@
 }
 
 #FreePremiumY{
+    @include volumen(100px, 100px);
     @extend %imagen-centrada;
-    height: 100px;
-    width: 100px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/

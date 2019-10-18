@@ -7,8 +7,7 @@
 }
 
 .ImgContact {
-    height: 25px;
-    width: 25px;
+    @include volumen(25px, 25px);
     @extend %imagen-centrada;
 }
 

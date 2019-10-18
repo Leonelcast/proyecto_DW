@@ -14,10 +14,9 @@
 }
 
 #ImgUser {
-    height: 180px;
-    width: 180px;
+    @include volumen(180px, 180px);
+    @include border-radius(100px);
     @extend %imagen-centrada;
-    border-radius: 100px;
 }
 
 .UserBtn {
@@ -26,15 +25,13 @@
 }
 
 .UserAdvertisement {
-    height: 150px;
-    width: 150px;
     margin-bottom: 20px;
+    @include volumen(150px, 150px);
     @extend %imagen-centrada;
 }
 
 .ImgUserPhotos {
-    height: 350px;
-    width: 350px;
+    @include volumen(350px, 350px);
     @extend %imagen-centrada;
 }
 
@@ -43,21 +40,20 @@
 }
 
 .ModuleAdvertisementA {
+    text-align: center;
     background-color: $colorgrisclaro;
     @include relleno(25px, 25px, 30px, 30px);
-    text-align: center;
 }
 
 .ModuleAdvertisementB {
+    text-align: center;
     background-color: $colorgrisoscuro;
     @include relleno(25px, 25px, 30px, 30px);
-    text-align: center;
 }
 
 #FreePremiumU{
+    @include volumen(100px, 100px);
     @extend %imagen-centrada;
-    height: 100px;
-    width: 100px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
