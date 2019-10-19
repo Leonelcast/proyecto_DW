@@ -241,6 +241,7 @@ a {
   -webkit-border-radius: 35px;
   -moz-border-radius: 35px;
   -ms-border-radius: 35px;
+  -o-border-radius: 35px;
   border-radius: 35px;
 }
 
@@ -310,6 +311,7 @@ a {
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   -ms-border-radius: 100px;
+  -o-border-radius: 100px;
   border-radius: 100px;
 }
 
@@ -412,6 +414,7 @@ a {
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
   -ms-border-radius: 25px;
+  -o-border-radius: 25px;
   border-radius: 25px;
 }
 
