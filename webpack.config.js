@@ -20,8 +20,11 @@ module.exports =
               'sass-loader',
                 ],
               },
+              
             ],
+            
           },
+
         plugins: [
           new MiniCssExtractPlugin({
             filename: 'style.css'
