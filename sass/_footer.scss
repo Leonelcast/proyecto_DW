@@ -13,8 +13,8 @@
 
 #Fsocial {
     border: 2px solid $colorblanco;
+    border-radius: 25px;
     @include relleno(10px, 14px, 8px, 8px);
-    @include border-radius(25px);
 }
 
 #Fcontact {

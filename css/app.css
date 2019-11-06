@@ -236,13 +236,9 @@ a {
 
 .ImgSidebar {
   background-color: lightgrey;
+  border-radius: 35px;
   width: 75px;
   height: 75px;
-  -webkit-border-radius: 35px;
-  -moz-border-radius: 35px;
-  -ms-border-radius: 35px;
-  -o-border-radius: 35px;
-  border-radius: 35px;
 }
 
 #FreePremiumX {
@@ -296,6 +292,57 @@ a {
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------ SUBCATEGORIA Y ESTILOS ------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------- CONTACTO ESTILOS ----------------------------------------------------------------*/
+.ContactForm #ContactVideo {
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.ContactForm .ContactBody {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+@media (min-width: 600px) {
+  .ContactForm .ContactBody {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .ContactForm .ContactBody {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+.ContactForm .ContactBody hr {
+  color: black;
+  background-color: black;
+  width: auto;
+  height: 4px;
+}
+.ContactForm .ContactBody .icon {
+  width: 25px;
+  height: 25px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------- USERS ESTILOS -----------------------------------------------------------------*/
 .UserHeaderBot {
   padding-top: 15px;
@@ -306,13 +353,9 @@ a {
 }
 
 #ImgUser {
+  border-radius: 100px;
   width: 180px;
   height: 180px;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
-  border-radius: 100px;
 }
 
 .UserBtn {
@@ -407,15 +450,11 @@ a {
 
 #Fsocial {
   border: 2px solid white;
+  border-radius: 25px;
   padding-top: 10px;
   padding-bottom: 14px;
   padding-right: 8px;
   padding-left: 8px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-  border-radius: 25px;
 }
 
 #Fcontact {

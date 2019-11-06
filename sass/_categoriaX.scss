@@ -135,8 +135,8 @@ a {
 
 .ImgSidebar {
     background-color: $colorgrisclaro;
+    border-radius: 35px;
     @include volumen(75px, 75px);
-    @include border-radius(35px);
     @extend %imagen-centrada;
 }
 

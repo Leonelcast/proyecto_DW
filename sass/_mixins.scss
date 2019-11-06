@@ -1,10 +1,10 @@
 // Mixins
-@mixin border-radius($radio) {
-    -webkit-border-radius: $radio;
-    -moz-border-radius: $radio;
-    -ms-border-radius: $radio;
-    -o-border-radius: $radio;
-    border-radius: $radio;
+@mixin transformar($x, $y){
+    -webkit-transform: translateX($x) translateY($y);
+    -moz-transform: translateX($x) translateY($y);
+    -ms-transform: translateX($x) translateY($y);
+    -o-transform: translateX($x) translateY($y);
+    transform: translateX($x) translateY($y);
 }
 
 @mixin relleno($top, $bot, $right, $left) {
