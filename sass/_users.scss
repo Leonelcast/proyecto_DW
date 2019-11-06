@@ -39,18 +39,6 @@
     text-align: center;
 }
 
-.ModuleAdvertisementA {
-    text-align: center;
-    background-color: $colorgrisclaro;
-    @include relleno(25px, 25px, 30px, 30px);
-}
-
-.ModuleAdvertisementB {
-    text-align: center;
-    background-color: $colorgrisoscuro;
-    @include relleno(25px, 25px, 30px, 30px);
-}
-
 #FreePremiumU{
     @include volumen(100px, 100px);
     @extend %imagen-centrada;
@@ -61,7 +49,7 @@
     #AdvImg{
         margin-top: 20px;
         margin-bottom: 20px;
-        @include volumen(400px, 300px);
+        @include volumen(200px, 100px);
         @extend %imagen-centrada;
     }
 }

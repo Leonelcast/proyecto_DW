@@ -473,24 +473,6 @@ a {
   text-align: center;
 }
 
-.ModuleAdvertisementA {
-  text-align: center;
-  background-color: lightgrey;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-.ModuleAdvertisementB {
-  text-align: center;
-  background-color: grey;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
 #FreePremiumU {
   width: 100px;
   height: 100px;
@@ -502,8 +484,8 @@ a {
 .AdvModule #AdvImg {
   margin-top: 20px;
   margin-bottom: 20px;
-  width: 400px;
-  height: 300px;
+  width: 200px;
+  height: 100px;
 }
 
 #ReportImg {

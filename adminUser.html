@@ -56,7 +56,7 @@
                                 <a href="#0" class="button">Administrar</a>
                                 <button class="button" type="button" data-toggle="update-profile">Editar Perfil</button>
                                 <div class="dropdown-pane" id="update-profile" data-dropdown>
-                                    <label>Subir foto de perfil:
+                                    <label>Actualizar foto de perfil:
                                         <br>
                                         <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
                                     </label>
@@ -658,45 +658,181 @@
                                         <hr>
                                         <br>
                                         <div class="AdvModule">
-                                            <legend>Enlaces ingresados para publicidad:</legend>
-                                            <br>
-                                            <input id="L1" type="checkbox"><label for="L1">https://www.tacobell.com.gt</label><br>
-                                            <input id="L2" type="checkbox"><label for="L2">https://www.burgerking.com.gt</label><br>
-                                            <input id="L3" type="checkbox"><label for="L3">https://www.mcdonalds.com.gt</label><br>
-                                            <input id="L4" type="checkbox"><label for="L4">https://www.pollocampero.com.gt</label><br>
-                                            <input id="L5" type="checkbox"><label for="L5">https://www.americandonuts.com.gt</label><br>
-                                            <input id="L6" type="checkbox"><label for="L6">https://www.krispykreme.com.gt</label><br>
-                                            <input id="L7" type="checkbox"><label for="L7">https://www.subway.com.gt</label><br>
-                                            <p>Seleccione un enlace si desea eliminarlo.</p>
-                                                <button type="tiny button" class="alert button">Eliminar</button>
-                                            <button class="button" type="button" data-toggle="update-url">+ Agregar Url de Publicidad</button>
-                                            <div class="dropdown-pane" id="update-url" data-dropdown>
-                                                <label>Agregue una nueva URL de publicidad, marcará un error si no coincide con la expresión regular para una URL válida:  
-                                                    <input type="text" placeholder="https://www.publicnews.com.gt" pattern="url">
-                                                </label>
-                                                <button type="tiny button" class="success button">Guardar</button>
-                                            </div>
-                                            <br><br>
-                                            <legend>Imagenes ingresadas para publicidad:</legend>
-                                            <input id="P1" type="checkbox"><label for="P1">
-                                                <img id="AdvImg" src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"></label><br>
-                                            <input id="P2" type="checkbox"><label for="P2">
-                                                <img id="AdvImg" src="./images/horizontal adv 1.jpg" alt="image for advertising"></label><br>
-                                            <input id="P3" type="checkbox"><label for="P3">
-                                                <img id="AdvImg" src="./images/horizontal adv 2.jpg" alt="image for advertising"></label><br>
-                                            <input id="P4" type="checkbox"><label for="P4">
-                                                <img id="AdvImg" src="./images/horizontal adv 3.jpg" alt="image for advertising"></label><br>
-                                            <p>Seleccione una imagen si desea eliminarla.</p>
-                                            <button type="tiny button" class="alert button">Eliminar</button>
-                                            <button class="button" type="button" data-toggle="update-adv">+ Agregar Imagen Publicitaria</button>
-                                            <div class="dropdown-pane" id="update-adv" data-dropdown>
-                                                <label>Agregar:
+                                            <button class="button" type="button" data-toggle="upload-adv">+ Agregar Nueva Publicidad</button>
+                                            <div class="dropdown-pane" id="upload-adv" data-dropdown>
+                                                <label>Subir imagen:
                                                     <br>
                                                     <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
                                                 </label>
                                                 <br>
+                                                <label>Agregue una URL para la imagen, marcará un error si no coincide con la expresión regular para una URL válida:  
+                                                    <input type="text" placeholder="https://www.publicnews.com.gt" pattern="url">
+                                                </label>
+                                                <br>
                                                 <button type="tiny button" class="success button">Guardar</button>
                                             </div>
+                                            <br>
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                    <th>ID</th>
+                                                    <th>Usuario</th>
+                                                    <th>Url Anuncio</th>
+                                                    <th>Imagen</th>
+                                                    <th>Editar</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <td>01</td>
+                                                    <td>Username01</td>
+                                                    <td>https://www.pizzahut.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Eliminar</button>
+                                                        <button class="button" type="button" data-toggle="update-adv1">Actualizar</button>
+                                                        <div class="dropdown-pane" id="update-adv1" data-dropdown>
+                                                            <label>Actualizar imagen:
+                                                                <br>
+                                                                <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
+                                                            </label>
+                                                            <br>
+                                                            <label>Actualizar la URL para la imagen, marcará un error si no coincide con la expresión regular para una URL válida:  
+                                                                <input type="text" placeholder="https://www.publicnews.com.gt" pattern="url">
+                                                            </label>
+                                                            <br>
+                                                            <button type="tiny button" class="success button">Guardar</button>
+                                                        </div>
+                                                        <button class="expanded button" type="button" data-toggle="download-report1">Reportes</button>
+                                                        <div class="dropdown-pane" id="download-report1" data-dropdown>
+                                                            <label>Reportes:
+                                                                <select>
+                                                                    <option value="Clicks">Por total de clicks del anuncio</option>
+                                                                    <option value="Pages">Por total de clicks de la página</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button" class="success button">Descargar</button>
+                                                        </div>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>02</td>
+                                                    <td>Username02</td>
+                                                    <td>https://www.burgerking.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 1.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Eliminar</button>
+                                                        <button class="button" type="button" data-toggle="update-adv2">Actualizar</button>
+                                                        <div class="dropdown-pane" id="update-adv2" data-dropdown>
+                                                            <label>Actualizar imagen:
+                                                                <br>
+                                                                <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
+                                                            </label>
+                                                            <br>
+                                                            <label>Actualizar la URL para la imagen, marcará un error si no coincide con la expresión regular para una URL válida:  
+                                                                <input type="text" placeholder="https://www.publicnews.com.gt" pattern="url">
+                                                            </label>
+                                                            <br>
+                                                            <button type="tiny button" class="success button">Guardar</button>
+                                                        </div>
+                                                        <button class="expanded button" type="button" data-toggle="download-report2">Reportes</button>
+                                                        <div class="dropdown-pane" id="download-report2" data-dropdown>
+                                                            <label>Reportes:
+                                                                <select>
+                                                                    <option value="Clicks">Por total de clicks del anuncio</option>
+                                                                    <option value="Pages">Por total de clicks de la página</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button" class="success button">Descargar</button>
+                                                        </div>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>03</td>
+                                                    <td>Username03</td>
+                                                    <td>https://www.dunkindonuts.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 2.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Eliminar</button>
+                                                        <button class="button" type="button" data-toggle="update-adv3">Actualizar</button>
+                                                        <div class="dropdown-pane" id="update-adv3" data-dropdown>
+                                                            <label>Actualizar imagen:
+                                                                <br>
+                                                                <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
+                                                            </label>
+                                                            <br>
+                                                            <label>Actualizar la URL para la imagen, marcará un error si no coincide con la expresión regular para una URL válida:  
+                                                                <input type="text" placeholder="https://www.publicnews.com.gt" pattern="url">
+                                                            </label>
+                                                            <br>
+                                                            <button type="tiny button" class="success button">Guardar</button>
+                                                        </div>
+                                                        <button class="expanded button" type="button" data-toggle="download-report3">Reportes</button>
+                                                        <div class="dropdown-pane" id="download-report3" data-dropdown>
+                                                            <label>Reportes:
+                                                                <select>
+                                                                    <option value="Clicks">Por total de clicks del anuncio</option>
+                                                                    <option value="Pages">Por total de clicks de la página</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button" class="success button">Descargar</button>
+                                                        </div>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>04</td>
+                                                    <td>Username04</td>
+                                                    <td>https://www.tacobell.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 3.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Eliminar</button>
+                                                        <button class="button" type="button" data-toggle="update-adv4">Actualizar</button>
+                                                        <div class="dropdown-pane" id="update-adv4" data-dropdown>
+                                                            <label>Actualizar imagen:
+                                                                <br>
+                                                                <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
+                                                            </label>
+                                                            <br>
+                                                            <label>Actualizar la URL para la imagen, marcará un error si no coincide con la expresión regular para una URL válida:  
+                                                                <input type="text" placeholder="https://www.publicnews.com.gt" pattern="url">
+                                                            </label>
+                                                            <br>
+                                                            <button type="tiny button" class="success button">Guardar</button>
+                                                        </div>
+                                                        <button class="expanded button" type="button" data-toggle="download-report4">Reportes</button>
+                                                        <div class="dropdown-pane" id="download-report4" data-dropdown>
+                                                            <label>Reportes:
+                                                                <select>
+                                                                    <option value="Clicks">Por total de clicks del anuncio</option>
+                                                                    <option value="Pages">Por total de clicks de la página</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button" class="success button">Descargar</button>
+                                                        </div>
+                                                    </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <br>
+                                            <hr>
+                                            <br>
+                                            <div class="Pages">
+                                                <ul class="pagination" role="navigation" aria-label="Pagination">
+                                                    <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                                    <li class="current"><span class="show-for-sr">You're on page</span> 1
+                                                    </li>
+                                                    <li><a href="#0" aria-label="Page 2">2</a></li>
+                                                    <li><a href="#0" aria-label="Page 3">3</a></li>
+                                                    <li><a href="#0" aria-label="Page 4">4</a></li>
+                                                    <li class="ellipsis" aria-hidden="true"></li>
+                                                    <li><a href="#0" aria-label="Page 9">9</a></li>
+                                                    <li><a href="#0" aria-label="Page 10">10</a></li>
+                                                    <li><a href="#0" aria-label="Next page">Next <span
+                                                                class="show-for-sr">page</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <br>
                                         </div>
                                         <br>
                                     </div>
@@ -708,8 +844,8 @@
                                         <div class="dropdown-pane" id="download-report" data-dropdown>
                                             <label>Reportes:
                                                 <select>
-                                                    <option value="January">Por total de clicks por anuncio</option>
-                                                    <option value="February">Por total de clicks por página</option>
+                                                    <option value="Clicks">Por total de clicks por anuncio</option>
+                                                    <option value="Pages">Por total de clicks por página</option>
                                                 </select>
                                             </label>
                                             <button type="tiny button" class="success button">Descargar</button>

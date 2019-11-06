@@ -56,7 +56,7 @@
                                 <a href="#0" class="button">Moderar</a>
                                 <button class="button" type="button" data-toggle="update-profile">Editar Perfil</button>
                                 <div class="dropdown-pane" id="update-profile" data-dropdown>
-                                    <label>Subir foto de perfil:
+                                    <label>Actualizar foto de perfil:
                                         <br>
                                         <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
                                     </label>
@@ -310,53 +310,153 @@
                                     <div class="tabs-panel" id="modulepanel3">
                                         <h3>MODULO DE ANUNCIOS</h3>
                                         <br>
-                                        <h4>Anuncios Reportados Recientemente</h4>
-                                        <hr>
-                                        <div class="grid-x">
-                                            <div class="cell large-6">
-                                                <section class="ModuleAdvertisementA">
-                                                    <button type="button" class="tiny alert button">Censurar anuncio</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                    <br>
-                                                    <a href="#0"> <img src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"> </a>
-                                                </section>
-                                                <section class="ModuleAdvertisementB">
-                                                    <button type="button" class="tiny alert button">Censurar anuncio</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                    <br>
-                                                    <a href="#0"> <img src="./images/horizontal adv 1.jpg" alt="image for advertising"> </a>
-                                                </section>
+                                        <div class="AdvModule">
+                                            <h4>Anuncios Reportados Recientemente</h4>
+                                            <hr>
+                                            <br>
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                    <th>ID</th>
+                                                    <th>Usuario</th>
+                                                    <th>Url Anuncio</th>
+                                                    <th>Imagen</th>
+                                                    <th>Editar</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <td>01</td>
+                                                    <td>Username01</td>
+                                                    <td>https://www.pizzahut.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Censurar</button>
+                                                        <button type="tiny button" class="success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>02</td>
+                                                    <td>Username02</td>
+                                                    <td>https://www.burgerking.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 1.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Censurar</button>
+                                                        <button type="tiny button" class="success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>03</td>
+                                                    <td>Username03</td>
+                                                    <td>https://www.dunkindonuts.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 2.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Censurar</button>
+                                                        <button type="tiny button" class="success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>04</td>
+                                                    <td>Username04</td>
+                                                    <td>https://www.tacobell.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 3.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Censurar</button>
+                                                        <button type="tiny button" class="success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <br>
+                                            <div class="Pages">
+                                                <ul class="pagination" role="navigation" aria-label="Pagination">
+                                                    <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                                    <li class="current"><span class="show-for-sr">You're on page</span> 1
+                                                    </li>
+                                                    <li><a href="#0" aria-label="Page 2">2</a></li>
+                                                    <li><a href="#0" aria-label="Page 3">3</a></li>
+                                                    <li><a href="#0" aria-label="Page 4">4</a></li>
+                                                    <li class="ellipsis" aria-hidden="true"></li>
+                                                    <li><a href="#0" aria-label="Page 9">9</a></li>
+                                                    <li><a href="#0" aria-label="Page 10">10</a></li>
+                                                    <li><a href="#0" aria-label="Next page">Next <span
+                                                                class="show-for-sr">page</span></a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <div class="cell large-6">
-                                                <section class="ModuleAdvertisementA">
-                                                    <button type="button" class="tiny alert button">Censurar anuncio</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                    <br>
-                                                    <a href="#0"> <img src="./images/horizontal adv 2.jpg" alt="image for advertising"> </a>
-                                                </section>
-                                                <section class="ModuleAdvertisementB">
-                                                    <button type="button" class="tiny alert button">Censurar anuncio</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                    <br>
-                                                    <a href="#0"> <img src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"> </a>
-                                                </section>
+                                            <hr>
+                                            <br>
+                                            <h4>Anuncios Censurados Recientemente</h4>
+                                            <hr>
+                                            <br>
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                    <th>ID</th>
+                                                    <th>Usuario</th>
+                                                    <th>Url Anuncio</th>
+                                                    <th>Imagen</th>
+                                                    <th>Editar</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <td>01</td>
+                                                    <td>Username01</td>
+                                                    <td>https://www.pizzahut.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>02</td>
+                                                    <td>Username02</td>
+                                                    <td>https://www.burgerking.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 1.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>03</td>
+                                                    <td>Username03</td>
+                                                    <td>https://www.dunkindonuts.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 2.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>04</td>
+                                                    <td>Username04</td>
+                                                    <td>https://www.tacobell.com.gt</td>
+                                                    <td><img id="AdvImg" src="./images/horizontal adv 3.jpg" alt="image for advertising"></td>
+                                                    <td>
+                                                        <button type="tiny button" class="alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <br>
+                                            <div class="Pages">
+                                                <ul class="pagination" role="navigation" aria-label="Pagination">
+                                                    <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                                    <li class="current"><span class="show-for-sr">You're on page</span> 1
+                                                    </li>
+                                                    <li><a href="#0" aria-label="Page 2">2</a></li>
+                                                    <li><a href="#0" aria-label="Page 3">3</a></li>
+                                                    <li><a href="#0" aria-label="Page 4">4</a></li>
+                                                    <li class="ellipsis" aria-hidden="true"></li>
+                                                    <li><a href="#0" aria-label="Page 9">9</a></li>
+                                                    <li><a href="#0" aria-label="Page 10">10</a></li>
+                                                    <li><a href="#0" aria-label="Next page">Next <span
+                                                                class="show-for-sr">page</span></a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                        </div>
-                                        <hr>
-                                        <br>
-                                        <div class="Pages">
-                                            <ul class="pagination" role="navigation" aria-label="Pagination">
-                                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
-                                                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-                                                <li><a href="#0" aria-label="Page 2">2</a></li>
-                                                <li><a href="#0" aria-label="Page 3">3</a></li>
-                                                <li><a href="#0" aria-label="Page 4">4</a></li>
-                                                <li class="ellipsis" aria-hidden="true"></li>
-                                                <li><a href="#0" aria-label="Page 9">9</a></li>
-                                                <li><a href="#0" aria-label="Page 10">10</a></li>
-                                                <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
-                                                </li>
-                                            </ul>
+                                            <hr>
+                                            <br>
                                         </div>
                                         <br>
                                     </div>
