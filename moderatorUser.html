@@ -217,93 +217,180 @@
                                     <div class="tabs-panel" id="modulepanel2">
                                         <h3>MODULO DE COMENTARIOS</h3>
                                         <br>
-                                        <h4>Comentarios Reportados Recientemente</h4>
-                                        <hr>
-                                        <a href="./moduloModerator.html" class="expanded button">Panel de Moderacion</a>
-                                        <br>
-                                        <div class="grid-x grid-margin-x">
-                                            <div class="cell large-1"></div>
-                                            <div class="cell large-5">
-                                                <img id="user" src="./images//User man.png" alt="imagen de perfil">
-                                                <div class="commentario">
-                                                    <h6><a href="#0">Leonel Castañeda</a></h6>
-                                                    <p> 9 de septiembre, 2019</p>
-                                                    <a href="./articuloTesla.html">
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
-                                                            quam praesentium
-                                                            velit et, reprehenderit aperiam accusantium eius earum unde ab
-                                                            adipisci voluptas
-                                                            esse in ipsam quas dolore ipsa non!</p>
-                                                    </a>
-                                                    <button type="button" class="tiny alert button">Censurar contenido</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                </div>
-                                                <br>
-                                                <img id="user" src="./images//User woman.png" alt="imagen de perfil">
-                                                <div class="commentario">
-                                                    <h6><a href="#0">Maria Flores</a></h6>
-                                                    <p> 15 de diciembre, 2019</p>
-                                                    <a href="./articuloNintendo.html">
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
-                                                            quam praesentium
-                                                            velit et, reprehenderit aperiam accusantium eius earum unde ab
-                                                            adipisci voluptas
-                                                            esse in ipsam quas dolore ipsa non!</p>
-                                                    </a>
-                                                    <button type="button" class="tiny alert button">Censurar contenido</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                </div>
-                                                <br>
+
+                                        <div class="ComModule">
+                                            <h4>Comentarios Reportados Recientemente</h4>
+                                            <hr>
+                                            <br>
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                    <th>ID</th>
+                                                    <th>Usuario</th>
+                                                    <th>Comentario</th>
+                                                    <th>Articulo</th>
+                                                    <th>Fecha</th>
+                                                    <th>Editar</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <td>01</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username01</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                        reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                        ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>9/09/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Censurar</button>
+                                                        <button type="tiny button" class="tiny success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>02</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username02</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                            reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                            ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>9/10/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Censurar</button>
+                                                        <button type="tiny button" class="tiny success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>03</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username03</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                            reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                            ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>06/11/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Censurar</button>
+                                                        <button type="tiny button" class="tiny success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>04</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username04</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                            reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                            ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>06/10/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Censurar</button>
+                                                        <button type="tiny button" class="tiny success button">Omitir</button>
+                                                    </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <br>
+                                            <div class="Pages">
+                                                <ul class="pagination" role="navigation" aria-label="Pagination">
+                                                    <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                                    <li class="current"><span class="show-for-sr">You're on page</span> 1
+                                                    </li>
+                                                    <li><a href="#0" aria-label="Page 2">2</a></li>
+                                                    <li><a href="#0" aria-label="Page 3">3</a></li>
+                                                    <li><a href="#0" aria-label="Page 4">4</a></li>
+                                                    <li class="ellipsis" aria-hidden="true"></li>
+                                                    <li><a href="#0" aria-label="Page 9">9</a></li>
+                                                    <li><a href="#0" aria-label="Page 10">10</a></li>
+                                                    <li><a href="#0" aria-label="Next page">Next <span
+                                                                class="show-for-sr">page</span></a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <div class="cell large-5">
-                                                <img id="user" src="./images//User man.png" alt="imagen de perfil">
-                                                <div class="commentario">
-                                                    <h6><a href="#0">Dylan Rodas</a></h6>
-                                                    <p> 10 de enero, 2019</p>
-                                                    <a href="./articuloApple.html">
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
-                                                            quam praesentium
-                                                            velit et, reprehenderit aperiam accusantium eius earum unde ab
-                                                            adipisci voluptas
-                                                            esse in ipsam quas dolore ipsa non!</p>
-                                                    </a>
-                                                    <button type="button" class="tiny alert button">Censurar contenido</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                </div>
-                                                <br>
-                                                <img id="user" src="./images//User woman.png" alt="imagen de perfil">
-                                                <div class="commentario">
-                                                    <h6><a href="#0">Elizabeth de Castilla</a></h6>
-                                                    <p> 14 de octubre, 2019</p>
-                                                    <a href="./articuloTesla.html">
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi
-                                                            quam praesentium
-                                                            velit et, reprehenderit aperiam accusantium eius earum unde ab
-                                                            adipisci voluptas
-                                                            esse in ipsam quas dolore ipsa non!</p>
-                                                    </a>
-                                                    <button type="button" class="tiny alert button">Censurar contenido</button>
-                                                    <button type="button" class="tiny success button">Omitir</button>
-                                                </div>
-                                                <br>
+                                            <hr>
+                                            <br>
+                                            <h4>Comentarios Censurados</h4>
+                                            <hr>
+                                            <br>
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                    <th>ID</th>
+                                                    <th>Usuario</th>
+                                                    <th>Comentario</th>
+                                                    <th>Articulo</th>
+                                                    <th>Fecha</th>
+                                                    <th>Editar</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                    <td>01</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username01</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                        reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                        ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>9/09/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>02</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username02</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                            reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                            ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>9/10/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>03</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username03</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                            reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                            ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>06/11/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td>04</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username04</a></td>
+                                                    <td><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex sequi quam praesentium velit et, 
+                                                            reprehenderit aperiam accusantium eius earum unde ab adipisci voluptas esse in ipsam quas dolore 
+                                                            ipsa non!</p></td>
+                                                    <td><a href="./articuloTesla.html">ArticleName</a></td>
+                                                    <td><p>06/10/2019</p></td>
+                                                    <td>
+                                                        <button type="tiny button" class="tiny alert button">Descensurar</button>
+                                                    </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <br>
+                                            <div class="Pages">
+                                                <ul class="pagination" role="navigation" aria-label="Pagination">
+                                                    <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                                    <li class="current"><span class="show-for-sr">You're on page</span> 1
+                                                    </li>
+                                                    <li><a href="#0" aria-label="Page 2">2</a></li>
+                                                    <li><a href="#0" aria-label="Page 3">3</a></li>
+                                                    <li><a href="#0" aria-label="Page 4">4</a></li>
+                                                    <li class="ellipsis" aria-hidden="true"></li>
+                                                    <li><a href="#0" aria-label="Page 9">9</a></li>
+                                                    <li><a href="#0" aria-label="Page 10">10</a></li>
+                                                    <li><a href="#0" aria-label="Next page">Next <span
+                                                                class="show-for-sr">page</span></a>
+                                                    </li>
+                                                </ul>
                                             </div>
-                                            <div class="cell large-1"></div>
-                                        </div>
-                                        <hr>
-                                        <br>
-                                        <div class="Pages">
-                                            <ul class="pagination" role="navigation" aria-label="Pagination">
-                                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
-                                                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-                                                <li><a href="#0" aria-label="Page 2">2</a></li>
-                                                <li><a href="#0" aria-label="Page 3">3</a></li>
-                                                <li><a href="#0" aria-label="Page 4">4</a></li>
-                                                <li class="ellipsis" aria-hidden="true"></li>
-                                                <li><a href="#0" aria-label="Page 9">9</a></li>
-                                                <li><a href="#0" aria-label="Page 10">10</a></li>
-                                                <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
-                                                </li>
-                                            </ul>
+                                            <hr>
+                                            <br>
                                         </div>
                                         <br>
                                     </div>
@@ -327,8 +414,8 @@
                                                 <tbody>
                                                     <tr>
                                                     <td>01</td>
-                                                    <td>Username01</td>
-                                                    <td>https://www.pizzahut.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username01</a></td>
+                                                    <td><a href="#0">https://www.pizzahut.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Censurar</button>
@@ -337,8 +424,8 @@
                                                     </tr>
                                                     <tr>
                                                     <td>02</td>
-                                                    <td>Username02</td>
-                                                    <td>https://www.burgerking.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username02</a></td>
+                                                    <td><a href="#0">https://www.burgerking.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/horizontal adv 1.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Censurar</button>
@@ -347,8 +434,8 @@
                                                     </tr>
                                                     <tr>
                                                     <td>03</td>
-                                                    <td>Username03</td>
-                                                    <td>https://www.dunkindonuts.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username03</a></td>
+                                                    <td><a href="#0">https://www.dunkindonuts.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/horizontal adv 2.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Censurar</button>
@@ -357,8 +444,8 @@
                                                     </tr>
                                                     <tr>
                                                     <td>04</td>
-                                                    <td>Username04</td>
-                                                    <td>https://www.tacobell.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username04</a></td>
+                                                    <td><a href="#0">https://www.tacobell.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/horizontal adv 3.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Censurar</button>
@@ -386,7 +473,7 @@
                                             </div>
                                             <hr>
                                             <br>
-                                            <h4>Anuncios Censurados Recientemente</h4>
+                                            <h4>Anuncios Censurados</h4>
                                             <hr>
                                             <br>
                                             <table>
@@ -402,8 +489,8 @@
                                                 <tbody>
                                                     <tr>
                                                     <td>01</td>
-                                                    <td>Username01</td>
-                                                    <td>https://www.pizzahut.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username01</a></td>
+                                                    <td><a href="#0">https://www.pizzahut.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Descensurar</button>
@@ -411,8 +498,8 @@
                                                     </tr>
                                                     <tr>
                                                     <td>02</td>
-                                                    <td>Username02</td>
-                                                    <td>https://www.burgerking.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username02</a></td>
+                                                    <td><a href="#0">https://www.burgerking.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/horizontal adv 1.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Descensurar</button>
@@ -420,8 +507,8 @@
                                                     </tr>
                                                     <tr>
                                                     <td>03</td>
-                                                    <td>Username03</td>
-                                                    <td>https://www.dunkindonuts.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username03</a></td>
+                                                    <td><a href="#0">https://www.dunkindonuts.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/horizontal adv 2.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Descensurar</button>
@@ -429,8 +516,8 @@
                                                     </tr>
                                                     <tr>
                                                     <td>04</td>
-                                                    <td>Username04</td>
-                                                    <td>https://www.tacobell.com.gt</td>
+                                                    <td><a href="#0"><img id="ComImg" src="./images//User man.png" alt="imagen de perfil">Username04</a></td>
+                                                    <td><a href="#0">https://www.tacobell.com.gt</a></td>
                                                     <td><img id="AdvImg" src="./images/horizontal adv 3.jpg" alt="image for advertising"></td>
                                                     <td>
                                                         <button type="tiny button" class="alert button">Descensurar</button>

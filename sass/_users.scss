@@ -44,12 +44,24 @@
     @extend %imagen-centrada;
 }
 
+.ComModule{
+    text-align: center;
+    #ComImg{
+        @include volumen(50px, 50px);
+        @extend %imagen-centrada;
+    }
+}
+
 .AdvModule{
     text-align: center;
     #AdvImg{
         margin-top: 20px;
         margin-bottom: 20px;
         @include volumen(200px, 100px);
+        @extend %imagen-centrada;
+    }
+    #ComImg{
+        @include volumen(50px, 50px);
         @extend %imagen-centrada;
     }
 }

@@ -1,4 +1,4 @@
-.ImgContact, #ReportImg, .AdvModule #AdvImg, #FreePremiumU, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, .ContactForm .ContactBody .ContactAdvertisement, .AboutUs .AboutBody .AboutAdvertisement, #FreePremiumY, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, #FreePremiumX, .ImgSidebar, .CategoryArticles img {
+.ImgContact, #ReportImg, .AdvModule #ComImg, .AdvModule #AdvImg, .ComModule #ComImg, #FreePremiumU, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, .ContactForm .ContactBody .ContactAdvertisement, .AboutUs .AboutBody .AboutAdvertisement, #FreePremiumY, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, #FreePremiumX, .ImgSidebar, .CategoryArticles img {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -478,6 +478,14 @@ a {
   height: 100px;
 }
 
+.ComModule {
+  text-align: center;
+}
+.ComModule #ComImg {
+  width: 50px;
+  height: 50px;
+}
+
 .AdvModule {
   text-align: center;
 }
@@ -486,6 +494,10 @@ a {
   margin-bottom: 20px;
   width: 200px;
   height: 100px;
+}
+.AdvModule #ComImg {
+  width: 50px;
+  height: 50px;
 }
 
 #ReportImg {
