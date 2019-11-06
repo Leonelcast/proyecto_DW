@@ -8,7 +8,7 @@
     <title>Admin User</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
-<link href="style.css" rel="stylesheet"></head>
+</head>
 
 <body>
     <header>
@@ -51,12 +51,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cell large-6">
+                        <div class="cell large-5">
                             <section class="UserBtn">
-                                <a href="#0" class="button">Editar Perfil</a>
                                 <a href="#0" class="button">Administrar</a>
+                                <a href="#0" class="button">Editar Perfil</a>
                                 <a href="#0" class="button">Cerrar Sesion</a>
                             </section>
+                        </div>
+                        <div class="cell large-1">
+                            <aside class="UserAdvertisement">
+                                <h6>- Advertisement -</h6>
+                                <a href="#0"> <img src="./images/Retro-Pizza-Advertising-Poster.jpg"
+                                        alt="image for advertising"> </a>
+                            </aside>
                         </div>
                         <div class="cell large-1"></div>
                     </div>
@@ -65,6 +72,8 @@
             <div class="cell large-1"></div>
         </div>
     </section>
+
+    <br>
 
     <section class="UserBody">
         <div class="grid-x">
@@ -81,485 +90,627 @@
 
                 <div class="tabs-content" data-tabs-content="user-tabs">
                     <div class="tabs-panel is-active" id="panel1">
-                        <h4>Administracion de Usuarios</h4>
-                        <br>
                         <div class="grid-x">
-                            <div class="cell large-6">
-                                <div class="media-object">
-                                    <div class="media-object-section">
-                                        <a href="#0"> <img class="ImgSidebar" src="./images/User man.png"
-                                                alt="image for members"> </a>
-                                    </div>
-                                    <div class="media-object-section">
-                                        <h6><a href="#0">Dylan Rodas</a></h6>
-                                        <div class="grid-x">
-                                            <div class="cell large-3">
-                                                <p>Active:</p>
-                                            </div>
-                                            <div class="cell large-9">
-                                                <div class="ActiveUser">
-                                                    <div class="switch tiny">
-                                                        <input class="switch-input" id="tinySwitch1" type="checkbox"
-                                                            name="Switch1">
-                                                        <label class="switch-paddle" for="tinySwitch1">
-                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
-                                        <p>Subscription until December 31, 2021</p>
-                                        <button class="button" type="button" data-toggle="change-subscription1">Change
-                                            Subscription</button>
-                                        <div class="dropdown-pane" id="change-subscription1" data-dropdown>
-                                            <label>Year
-                                                <select>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2022">2022</option>
-                                                </select>
-                                            </label>
-                                            <label>Month
-                                                <select>
-                                                    <option value="January">January</option>
-                                                    <option value="February">February</option>
-                                                    <option value="March">March</option>
-                                                    <option value="April">April</option>
-                                                    <option value="May">May</option>
-                                                    <option value="June">June</option>
-                                                    <option value="July">July</option>
-                                                    <option value="August">August</option>
-                                                    <option value="September">September</option>
-                                                    <option value="October">October</option>
-                                                    <option value="November">November</option>
-                                                    <option value="December">December</option>
-                                                </select>
-                                            </label>
-                                            <label>Day<input type="number" value="1"></label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                        <button class="button" type="button" data-toggle="change-role1">Change
-                                            Role</button>
-                                        <div class="dropdown-pane" id="change-role1" data-dropdown>
-                                            <label>Role
-                                                <select>
-                                                    <option value="Free">Free</option>
-                                                    <option value="Premium">Premium</option>
-                                                    <option value="Author">Author</option>
-                                                    <option value="Moderator">Moderator</option>
-                                                    <option value="Administrator">Administrator</option>
-                                                </select>
-                                            </label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="media-object">
-                                    <div class="media-object-section">
-                                        <a href="#0"> <img class="ImgSidebar" src="./images/User woman.png"
-                                                alt="image for members"> </a>
-                                    </div>
-                                    <div class="media-object-section">
-                                        <h6><a href="#0">Abuelita Leiva</a></h6>
-                                        <div class="grid-x">
-                                            <div class="cell large-3">
-                                                <p>Active:</p>
-                                            </div>
-                                            <div class="cell large-9">
-                                                <div class="ActiveUser">
-                                                    <div class="switch tiny">
-                                                        <input class="switch-input" id="tinySwitch2" type="checkbox"
-                                                            name="Switch2">
-                                                        <label class="switch-paddle" for="tinySwitch2">
-                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
-                                        <p>Subscription until October 25, 2020</p>
-                                        <button class="button" type="button" data-toggle="change-subscription2">Change
-                                            Subscription</button>
-                                        <div class="dropdown-pane" id="change-subscription2" data-dropdown>
-                                            <label>Year
-                                                <select>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2022">2022</option>
-                                                </select>
-                                            </label>
-                                            <label>Month
-                                                <select>
-                                                    <option value="January">January</option>
-                                                    <option value="February">February</option>
-                                                    <option value="March">March</option>
-                                                    <option value="April">April</option>
-                                                    <option value="May">May</option>
-                                                    <option value="June">June</option>
-                                                    <option value="July">July</option>
-                                                    <option value="August">August</option>
-                                                    <option value="September">September</option>
-                                                    <option value="October">October</option>
-                                                    <option value="November">November</option>
-                                                    <option value="December">December</option>
-                                                </select>
-                                            </label>
-                                            <label>Day<input type="number" value="1"></label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                        <button class="button" type="button" data-toggle="change-role2">Change
-                                            Role</button>
-                                        <div class="dropdown-pane" id="change-role2" data-dropdown>
-                                            <label>Role
-                                                <select>
-                                                    <option value="Free">Free</option>
-                                                    <option value="Premium">Premium</option>
-                                                    <option value="Author">Author</option>
-                                                    <option value="Moderator">Moderator</option>
-                                                    <option value="Administrator">Administrator</option>
-                                                </select>
-                                            </label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="media-object">
-                                    <div class="media-object-section">
-                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
-                                                alt="image for members">
-                                        </a>
-                                    </div>
-                                    <div class="media-object-section">
-                                        <h6><a href="#0">Juanito Tacos</a></h6>
-                                        <div class="grid-x">
-                                            <div class="cell large-3">
-                                                <p>Active:</p>
-                                            </div>
-                                            <div class="cell large-9">
-                                                <div class="ActiveUser">
-                                                    <div class="switch tiny">
-                                                        <input class="switch-input" id="tinySwitch3" type="checkbox"
-                                                            name="Switch3">
-                                                        <label class="switch-paddle" for="tinySwitch3">
-                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p>Role:&nbsp;&nbsp;<span>Free Member</span></p>
-                                        <p>Subscription until January 20, 2021</p>
-                                        <button class="button" type="button" data-toggle="change-subscription3">Change
-                                            Subscription</button>
-                                        <div class="dropdown-pane" id="change-subscription3" data-dropdown>
-                                            <label>Year
-                                                <select>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2022">2022</option>
-                                                </select>
-                                            </label>
-                                            <label>Month
-                                                <select>
-                                                    <option value="January">January</option>
-                                                    <option value="February">February</option>
-                                                    <option value="March">March</option>
-                                                    <option value="April">April</option>
-                                                    <option value="May">May</option>
-                                                    <option value="June">June</option>
-                                                    <option value="July">July</option>
-                                                    <option value="August">August</option>
-                                                    <option value="September">September</option>
-                                                    <option value="October">October</option>
-                                                    <option value="November">November</option>
-                                                    <option value="December">December</option>
-                                                </select>
-                                            </label>
-                                            <label>Day<input type="number" value="1"></label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                        <button class="button" type="button" data-toggle="change-role3">Change
-                                            Role</button>
-                                        <div class="dropdown-pane" id="change-role3" data-dropdown>
-                                            <label>Role
-                                                <select>
-                                                    <option value="Free">Free</option>
-                                                    <option value="Premium">Premium</option>
-                                                    <option value="Author">Author</option>
-                                                    <option value="Moderator">Moderator</option>
-                                                    <option value="Administrator">Administrator</option>
-                                                </select>
-                                            </label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="cell large-2">
+                                <ul class="tabs vertical" data-tabs id="module-tabs">
+                                    <li class="tabs-title is-active"><a href="#modulepanel1" aria-selected="true">Modulo
+                                            de Usuarios</a></li>
+                                    <li class="tabs-title"><a href="#modulepanel2">Modulo de Anuncios</a></li>
+                                    <li class="tabs-title"><a href="#modulepanel3">Estadisticas</a></li>
+                                </ul>
                             </div>
-                            <div class="cell large-6">
-                                <div class="media-object">
-                                    <div class="media-object-section">
-                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
-                                                alt="image for members">
-                                        </a>
-                                    </div>
-                                    <div class="media-object-section">
-                                        <h6><a href="#0">Will Smith</a></h6>
+                            <div class="cell large-10">
+                                <div class="tabs-content" data-tabs-content="module-tabs">
+                                    <div class="tabs-panel is-active" id="modulepanel1">
+                                        <h4>Administracion de Usuarios</h4>
+                                        <hr>
+                                        <br>
                                         <div class="grid-x">
-                                            <div class="cell large-3">
-                                                <p>Active:</p>
+                                            <div class="cell large-6">
+                                                <div class="media-object">
+                                                    <div class="media-object-section">
+                                                        <a href="#0"> <img class="ImgSidebar"
+                                                                src="./images/User man.png" alt="image for members">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-object-section">
+                                                        <h6><a href="#0">Dylan Rodas</a></h6>
+                                                        <div class="grid-x">
+                                                            <div class="cell large-3">
+                                                                <p>Active:</p>
+                                                            </div>
+                                                            <div class="cell large-9">
+                                                                <div class="ActiveUser">
+                                                                    <div class="switch tiny">
+                                                                        <input class="switch-input" id="tinySwitch1"
+                                                                            type="checkbox" name="Switch1">
+                                                                        <label class="switch-paddle" for="tinySwitch1">
+                                                                            <span class="show-for-sr">Tiny Sandwiches
+                                                                                Enabled</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
+                                                        <p>Subscription until December 31, 2021</p>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-subscription1">Change
+                                                            Subscription</button>
+                                                        <div class="dropdown-pane" id="change-subscription1"
+                                                            data-dropdown>
+                                                            <label>Year
+                                                                <select>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Month
+                                                                <select>
+                                                                    <option value="January">January</option>
+                                                                    <option value="February">February</option>
+                                                                    <option value="March">March</option>
+                                                                    <option value="April">April</option>
+                                                                    <option value="May">May</option>
+                                                                    <option value="June">June</option>
+                                                                    <option value="July">July</option>
+                                                                    <option value="August">August</option>
+                                                                    <option value="September">September</option>
+                                                                    <option value="October">October</option>
+                                                                    <option value="November">November</option>
+                                                                    <option value="December">December</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Day<input type="number" value="1"></label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-role1">Change
+                                                            Role</button>
+                                                        <div class="dropdown-pane" id="change-role1" data-dropdown>
+                                                            <label>Role
+                                                                <select>
+                                                                    <option value="Free">Free</option>
+                                                                    <option value="Premium">Premium</option>
+                                                                    <option value="Author">Author</option>
+                                                                    <option value="Moderator">Moderator</option>
+                                                                    <option value="Administrator">Administrator</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-object">
+                                                    <div class="media-object-section">
+                                                        <a href="#0"> <img class="ImgSidebar"
+                                                                src="./images/User woman.png" alt="image for members">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-object-section">
+                                                        <h6><a href="#0">Abuelita Leiva</a></h6>
+                                                        <div class="grid-x">
+                                                            <div class="cell large-3">
+                                                                <p>Active:</p>
+                                                            </div>
+                                                            <div class="cell large-9">
+                                                                <div class="ActiveUser">
+                                                                    <div class="switch tiny">
+                                                                        <input class="switch-input" id="tinySwitch2"
+                                                                            type="checkbox" name="Switch2">
+                                                                        <label class="switch-paddle" for="tinySwitch2">
+                                                                            <span class="show-for-sr">Tiny Sandwiches
+                                                                                Enabled</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
+                                                        <p>Subscription until October 25, 2020</p>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-subscription2">Change
+                                                            Subscription</button>
+                                                        <div class="dropdown-pane" id="change-subscription2"
+                                                            data-dropdown>
+                                                            <label>Year
+                                                                <select>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Month
+                                                                <select>
+                                                                    <option value="January">January</option>
+                                                                    <option value="February">February</option>
+                                                                    <option value="March">March</option>
+                                                                    <option value="April">April</option>
+                                                                    <option value="May">May</option>
+                                                                    <option value="June">June</option>
+                                                                    <option value="July">July</option>
+                                                                    <option value="August">August</option>
+                                                                    <option value="September">September</option>
+                                                                    <option value="October">October</option>
+                                                                    <option value="November">November</option>
+                                                                    <option value="December">December</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Day<input type="number" value="1"></label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-role2">Change
+                                                            Role</button>
+                                                        <div class="dropdown-pane" id="change-role2" data-dropdown>
+                                                            <label>Role
+                                                                <select>
+                                                                    <option value="Free">Free</option>
+                                                                    <option value="Premium">Premium</option>
+                                                                    <option value="Author">Author</option>
+                                                                    <option value="Moderator">Moderator</option>
+                                                                    <option value="Administrator">Administrator</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-object">
+                                                    <div class="media-object-section">
+                                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
+                                                                alt="image for members">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-object-section">
+                                                        <h6><a href="#0">Juanito Tacos</a></h6>
+                                                        <div class="grid-x">
+                                                            <div class="cell large-3">
+                                                                <p>Active:</p>
+                                                            </div>
+                                                            <div class="cell large-9">
+                                                                <div class="ActiveUser">
+                                                                    <div class="switch tiny">
+                                                                        <input class="switch-input" id="tinySwitch3"
+                                                                            type="checkbox" name="Switch3">
+                                                                        <label class="switch-paddle" for="tinySwitch3">
+                                                                            <span class="show-for-sr">Tiny Sandwiches
+                                                                                Enabled</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p>Role:&nbsp;&nbsp;<span>Free Member</span></p>
+                                                        <p>Subscription until January 20, 2021</p>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-subscription3">Change
+                                                            Subscription</button>
+                                                        <div class="dropdown-pane" id="change-subscription3"
+                                                            data-dropdown>
+                                                            <label>Year
+                                                                <select>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Month
+                                                                <select>
+                                                                    <option value="January">January</option>
+                                                                    <option value="February">February</option>
+                                                                    <option value="March">March</option>
+                                                                    <option value="April">April</option>
+                                                                    <option value="May">May</option>
+                                                                    <option value="June">June</option>
+                                                                    <option value="July">July</option>
+                                                                    <option value="August">August</option>
+                                                                    <option value="September">September</option>
+                                                                    <option value="October">October</option>
+                                                                    <option value="November">November</option>
+                                                                    <option value="December">December</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Day<input type="number" value="1"></label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-role3">Change
+                                                            Role</button>
+                                                        <div class="dropdown-pane" id="change-role3" data-dropdown>
+                                                            <label>Role
+                                                                <select>
+                                                                    <option value="Free">Free</option>
+                                                                    <option value="Premium">Premium</option>
+                                                                    <option value="Author">Author</option>
+                                                                    <option value="Moderator">Moderator</option>
+                                                                    <option value="Administrator">Administrator</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="cell large-9">
-                                                <div class="ActiveUser">
-                                                    <div class="switch tiny">
-                                                        <input class="switch-input" id="tinySwitch4" type="checkbox"
-                                                            name="Switch4">
-                                                        <label class="switch-paddle" for="tinySwitch4">
-                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
-                                                        </label>
+                                            <div class="cell large-6">
+                                                <div class="media-object">
+                                                    <div class="media-object-section">
+                                                        <a href="#0"> <img class="ImgSidebar" src="./images/User.png"
+                                                                alt="image for members">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-object-section">
+                                                        <h6><a href="#0">Will Smith</a></h6>
+                                                        <div class="grid-x">
+                                                            <div class="cell large-3">
+                                                                <p>Active:</p>
+                                                            </div>
+                                                            <div class="cell large-9">
+                                                                <div class="ActiveUser">
+                                                                    <div class="switch tiny">
+                                                                        <input class="switch-input" id="tinySwitch4"
+                                                                            type="checkbox" name="Switch4">
+                                                                        <label class="switch-paddle" for="tinySwitch4">
+                                                                            <span class="show-for-sr">Tiny Sandwiches
+                                                                                Enabled</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p>Role:&nbsp;&nbsp;<span>Author Member</span></p>
+                                                        <p>Categories:&nbsp;&nbsp;<span>CtName1, CtName2,
+                                                                CtName3...</span></p>
+                                                        <p>Subscription until August 15, 2020</p>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-subscription4">Change
+                                                            Subscription</button>
+                                                        <div class="dropdown-pane" id="change-subscription4"
+                                                            data-dropdown>
+                                                            <label>Year
+                                                                <select>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Month
+                                                                <select>
+                                                                    <option value="January">January</option>
+                                                                    <option value="February">February</option>
+                                                                    <option value="March">March</option>
+                                                                    <option value="April">April</option>
+                                                                    <option value="May">May</option>
+                                                                    <option value="June">June</option>
+                                                                    <option value="July">July</option>
+                                                                    <option value="August">August</option>
+                                                                    <option value="September">September</option>
+                                                                    <option value="October">October</option>
+                                                                    <option value="November">November</option>
+                                                                    <option value="December">December</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Day<input type="number" value="1"></label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-role4">Change
+                                                            Role</button>
+                                                        <div class="dropdown-pane" id="change-role4" data-dropdown>
+                                                            <label>Role
+                                                                <select>
+                                                                    <option value="Free">Free</option>
+                                                                    <option value="Premium">Premium</option>
+                                                                    <option value="Author">Author</option>
+                                                                    <option value="Moderator">Moderator</option>
+                                                                    <option value="Administrator">Administrator</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-categories1">Change
+                                                            Categories</button>
+                                                        <div class="dropdown-pane" id="change-categories1"
+                                                            data-dropdown>
+                                                            <legend>Choose Categories</legend>
+                                                            <input id="C1" type="checkbox"><label for="C1">CategoryName
+                                                                1</label><br>
+                                                            <input id="C2" type="checkbox"><label for="C2">CategoryName
+                                                                2</label><br>
+                                                            <input id="C3" type="checkbox"><label for="C3">CategoryName
+                                                                3</label><br>
+                                                            <input id="C4" type="checkbox"><label for="C4">CategoryName
+                                                                4</label><br>
+                                                            <input id="C5" type="checkbox"><label for="C5">CategoryName
+                                                                5</label><br>
+                                                            <input id="C6" type="checkbox"><label for="C6">CategoryName
+                                                                6</label><br>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-object">
+                                                    <div class="media-object-section">
+                                                        <a href="#0"> <img class="ImgSidebar"
+                                                                src="./images/User woman.png" alt="image for members">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-object-section">
+                                                        <h6><a href="#0">Scarlett Johansson</a></h6>
+                                                        <div class="grid-x">
+                                                            <div class="cell large-3">
+                                                                <p>Active:</p>
+                                                            </div>
+                                                            <div class="cell large-9">
+                                                                <div class="ActiveUser">
+                                                                    <div class="switch tiny">
+                                                                        <input class="switch-input" id="tinySwitch5"
+                                                                            type="checkbox" name="Switch5">
+                                                                        <label class="switch-paddle" for="tinySwitch5">
+                                                                            <span class="show-for-sr">Tiny Sandwiches
+                                                                                Enabled</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p>Role:&nbsp;&nbsp;<span>Author Member</span></p>
+                                                        <p>Categories:&nbsp;&nbsp;<span>CtName4, CtName5,
+                                                                CtName6...</span></p>
+                                                        <p>Subscription until November 10, 2019</p>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-subscription5">Change
+                                                            Subscription</button>
+                                                        <div class="dropdown-pane" id="change-subscription5"
+                                                            data-dropdown>
+                                                            <label>Year
+                                                                <select>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Month
+                                                                <select>
+                                                                    <option value="January">January</option>
+                                                                    <option value="February">February</option>
+                                                                    <option value="March">March</option>
+                                                                    <option value="April">April</option>
+                                                                    <option value="May">May</option>
+                                                                    <option value="June">June</option>
+                                                                    <option value="July">July</option>
+                                                                    <option value="August">August</option>
+                                                                    <option value="September">September</option>
+                                                                    <option value="October">October</option>
+                                                                    <option value="November">November</option>
+                                                                    <option value="December">December</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Day<input type="number" value="1"></label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-role5">Change
+                                                            Role</button>
+                                                        <div class="dropdown-pane" id="change-role5" data-dropdown>
+                                                            <label>Role
+                                                                <select>
+                                                                    <option value="Free">Free</option>
+                                                                    <option value="Premium">Premium</option>
+                                                                    <option value="Author">Author</option>
+                                                                    <option value="Moderator">Moderator</option>
+                                                                    <option value="Administrator">Administrator</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-categories2">Change
+                                                            Categories</button>
+                                                        <div class="dropdown-pane" id="change-categories2"
+                                                            data-dropdown>
+                                                            <legend>Choose Categories</legend>
+                                                            <input id="C1" type="checkbox"><label for="C1">CategoryName
+                                                                1</label><br>
+                                                            <input id="C2" type="checkbox"><label for="C2">CategoryName
+                                                                2</label><br>
+                                                            <input id="C3" type="checkbox"><label for="C3">CategoryName
+                                                                3</label><br>
+                                                            <input id="C4" type="checkbox"><label for="C4">CategoryName
+                                                                4</label><br>
+                                                            <input id="C5" type="checkbox"><label for="C5">CategoryName
+                                                                5</label><br>
+                                                            <input id="C6" type="checkbox"><label for="C6">CategoryName
+                                                                6</label><br>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="media-object">
+                                                    <div class="media-object-section">
+                                                        <a href="#0"> <img class="ImgSidebar"
+                                                                src="./images/User man.png" alt="image for members">
+                                                        </a>
+                                                    </div>
+                                                    <div class="media-object-section">
+                                                        <h6><a href="#0">Leonel Castañeda</a></h6>
+                                                        <div class="grid-x">
+                                                            <div class="cell large-3">
+                                                                <p>Active:</p>
+                                                            </div>
+                                                            <div class="cell large-9">
+                                                                <div class="ActiveUser">
+                                                                    <div class="switch tiny">
+                                                                        <input class="switch-input" id="tinySwitch6"
+                                                                            type="checkbox" name="Switch6">
+                                                                        <label class="switch-paddle" for="tinySwitch6">
+                                                                            <span class="show-for-sr">Tiny Sandwiches
+                                                                                Enabled</span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
+                                                        <p>Subscription until September 27, 2019</p>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-subscription6">Change
+                                                            Subscription</button>
+                                                        <div class="dropdown-pane" id="change-subscription6"
+                                                            data-dropdown>
+                                                            <label>Year
+                                                                <select>
+                                                                    <option value="2019">2019</option>
+                                                                    <option value="2020">2020</option>
+                                                                    <option value="2021">2021</option>
+                                                                    <option value="2022">2022</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Month
+                                                                <select>
+                                                                    <option value="January">January</option>
+                                                                    <option value="February">February</option>
+                                                                    <option value="March">March</option>
+                                                                    <option value="April">April</option>
+                                                                    <option value="May">May</option>
+                                                                    <option value="June">June</option>
+                                                                    <option value="July">July</option>
+                                                                    <option value="August">August</option>
+                                                                    <option value="September">September</option>
+                                                                    <option value="October">October</option>
+                                                                    <option value="November">November</option>
+                                                                    <option value="December">December</option>
+                                                                </select>
+                                                            </label>
+                                                            <label>Day<input type="number" value="1"></label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
+                                                        <button class="button" type="button"
+                                                            data-toggle="change-role6">Change
+                                                            Role</button>
+                                                        <div class="dropdown-pane" id="change-role6" data-dropdown>
+                                                            <label>Role
+                                                                <select>
+                                                                    <option value="Free">Free</option>
+                                                                    <option value="Premium">Premium</option>
+                                                                    <option value="Author">Author</option>
+                                                                    <option value="Moderator">Moderator</option>
+                                                                    <option value="Administrator">Administrator</option>
+                                                                </select>
+                                                            </label>
+                                                            <button type="tiny button"
+                                                                class="success button">Save</button>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <p>Role:&nbsp;&nbsp;<span>Author Member</span></p>
-                                        <p>Categories:&nbsp;&nbsp;<span>CtName1, CtName2, CtName3...</span></p>
-                                        <p>Subscription until August 15, 2020</p>
-                                        <button class="button" type="button" data-toggle="change-subscription4">Change
-                                            Subscription</button>
-                                        <div class="dropdown-pane" id="change-subscription4" data-dropdown>
-                                            <label>Year
-                                                <select>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2022">2022</option>
-                                                </select>
-                                            </label>
-                                            <label>Month
-                                                <select>
-                                                    <option value="January">January</option>
-                                                    <option value="February">February</option>
-                                                    <option value="March">March</option>
-                                                    <option value="April">April</option>
-                                                    <option value="May">May</option>
-                                                    <option value="June">June</option>
-                                                    <option value="July">July</option>
-                                                    <option value="August">August</option>
-                                                    <option value="September">September</option>
-                                                    <option value="October">October</option>
-                                                    <option value="November">November</option>
-                                                    <option value="December">December</option>
-                                                </select>
-                                            </label>
-                                            <label>Day<input type="number" value="1"></label>
-                                            <button type="tiny button" class="success button">Save</button>
+                                        <hr>
+                                        <br>
+                                        <div class="Pages">
+                                            <ul class="pagination" role="navigation" aria-label="Pagination">
+                                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
+                                                <li class="current"><span class="show-for-sr">You're on page</span> 1
+                                                </li>
+                                                <li><a href="#0" aria-label="Page 2">2</a></li>
+                                                <li><a href="#0" aria-label="Page 3">3</a></li>
+                                                <li><a href="#0" aria-label="Page 4">4</a></li>
+                                                <li class="ellipsis" aria-hidden="true"></li>
+                                                <li><a href="#0" aria-label="Page 9">9</a></li>
+                                                <li><a href="#0" aria-label="Page 10">10</a></li>
+                                                <li><a href="#0" aria-label="Next page">Next <span
+                                                            class="show-for-sr">page</span></a>
+                                                </li>
+                                            </ul>
                                         </div>
-                                        <button class="button" type="button" data-toggle="change-role4">Change
-                                            Role</button>
-                                        <div class="dropdown-pane" id="change-role4" data-dropdown>
-                                            <label>Role
-                                                <select>
-                                                    <option value="Free">Free</option>
-                                                    <option value="Premium">Premium</option>
-                                                    <option value="Author">Author</option>
-                                                    <option value="Moderator">Moderator</option>
-                                                    <option value="Administrator">Administrator</option>
-                                                </select>
-                                            </label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                        <button class="button" type="button" data-toggle="change-categories1">Change
-                                            Categories</button>
-                                        <div class="dropdown-pane" id="change-categories1" data-dropdown>
-                                            <legend>Choose Categories</legend>
-                                            <input id="C1" type="checkbox"><label for="C1">CategoryName 1</label><br>
-                                            <input id="C2" type="checkbox"><label for="C2">CategoryName 2</label><br>
-                                            <input id="C3" type="checkbox"><label for="C3">CategoryName 3</label><br>
-                                            <input id="C4" type="checkbox"><label for="C4">CategoryName 4</label><br>
-                                            <input id="C5" type="checkbox"><label for="C5">CategoryName 5</label><br>
-                                            <input id="C6" type="checkbox"><label for="C6">CategoryName 6</label><br>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
+                                        <br>
                                     </div>
-                                </div>
-                                <div class="media-object">
-                                    <div class="media-object-section">
-                                        <a href="#0"> <img class="ImgSidebar" src="./images/User woman.png"
-                                                alt="image for members"> </a>
-                                    </div>
-                                    <div class="media-object-section">
-                                        <h6><a href="#0">Scarlett Johansson</a></h6>
-                                        <div class="grid-x">
-                                            <div class="cell large-3">
-                                                <p>Active:</p>
+                                    <div class="tabs-panel" id="modulepanel2">
+                                        <h4>Administracion de Anuncios</h4>
+                                        <hr>
+                                        <br>
+                                        <div class="AdvModule">
+                                            <legend>Enlaces ingresados para publicidad:</legend>
+                                            <br>
+                                            <input id="L1" type="checkbox"><label for="L1">https://www.tacobell.com.gt</label><br>
+                                            <input id="L2" type="checkbox"><label for="L2">https://www.burgerking.com.gt</label><br>
+                                            <input id="L3" type="checkbox"><label for="L3">https://www.mcdonalds.com.gt</label><br>
+                                            <input id="L4" type="checkbox"><label for="L4">https://www.pollocampero.com.gt</label><br>
+                                            <input id="L5" type="checkbox"><label for="L5">https://www.americandonuts.com.gt</label><br>
+                                            <input id="L6" type="checkbox"><label for="L6">https://www.krispykreme.com.gt</label><br>
+                                            <input id="L7" type="checkbox"><label for="L7">https://www.subway.com.gt</label><br>
+                                            <p>Seleccione un enlace si desea eliminarlo.</p>
+                                                <button type="tiny button" class="alert button">Eliminar</button>
+                                            <button class="button" type="button" data-toggle="update-url">+ Agregar Url de Publicidad</button>
+                                            <div class="dropdown-pane" id="update-url" data-dropdown>
+                                                <label>Agregue una nueva URL de publicidad, marcará un error si no coincide con la expresión regular para una URL válida:  
+                                                    <input type="text" placeholder="https://www.publicnews.com.gt" pattern="url">
+                                                </label>
+                                                <button type="tiny button" class="success button">Guardar</button>
                                             </div>
-                                            <div class="cell large-9">
-                                                <div class="ActiveUser">
-                                                    <div class="switch tiny">
-                                                        <input class="switch-input" id="tinySwitch5" type="checkbox"
-                                                            name="Switch5">
-                                                        <label class="switch-paddle" for="tinySwitch5">
-                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
+                                            <br><br>
+                                            <legend>Imagenes ingresadas para publicidad:</legend>
+                                            <input id="P1" type="checkbox"><label for="P1">
+                                                <img id="AdvImg" src="./images/Retro-Pizza-Advertising-Poster.jpg" alt="image for advertising"></label><br>
+                                            <input id="P2" type="checkbox"><label for="P2">
+                                                <img id="AdvImg" src="./images/horizontal adv 1.jpg" alt="image for advertising"></label><br>
+                                            <input id="P3" type="checkbox"><label for="P3">
+                                                <img id="AdvImg" src="./images/horizontal adv 2.jpg" alt="image for advertising"></label><br>
+                                            <input id="P4" type="checkbox"><label for="P4">
+                                                <img id="AdvImg" src="./images/horizontal adv 3.jpg" alt="image for advertising"></label><br>
+                                            <p>Seleccione una imagen si desea eliminarla.</p>
+                                            <button type="tiny button" class="alert button">Eliminar</button>
+                                            <button class="button" type="button" data-toggle="update-adv">+ Agregar Imagen Publicitaria</button>
+                                            <div class="dropdown-pane" id="update-adv" data-dropdown>
+                                                <label>Agregar:
+                                                    <br>
+                                                    <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
+                                                </label>
+                                                <br>
+                                                <button type="tiny button" class="success button">Guardar</button>
                                             </div>
                                         </div>
-                                        <p>Role:&nbsp;&nbsp;<span>Author Member</span></p>
-                                        <p>Categories:&nbsp;&nbsp;<span>CtName4, CtName5, CtName6...</span></p>
-                                        <p>Subscription until November 10, 2019</p>
-                                        <button class="button" type="button" data-toggle="change-subscription5">Change
-                                            Subscription</button>
-                                        <div class="dropdown-pane" id="change-subscription5" data-dropdown>
-                                            <label>Year
-                                                <select>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2022">2022</option>
-                                                </select>
-                                            </label>
-                                            <label>Month
-                                                <select>
-                                                    <option value="January">January</option>
-                                                    <option value="February">February</option>
-                                                    <option value="March">March</option>
-                                                    <option value="April">April</option>
-                                                    <option value="May">May</option>
-                                                    <option value="June">June</option>
-                                                    <option value="July">July</option>
-                                                    <option value="August">August</option>
-                                                    <option value="September">September</option>
-                                                    <option value="October">October</option>
-                                                    <option value="November">November</option>
-                                                    <option value="December">December</option>
-                                                </select>
-                                            </label>
-                                            <label>Day<input type="number" value="1"></label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                        <button class="button" type="button" data-toggle="change-role5">Change
-                                            Role</button>
-                                        <div class="dropdown-pane" id="change-role5" data-dropdown>
-                                            <label>Role
-                                                <select>
-                                                    <option value="Free">Free</option>
-                                                    <option value="Premium">Premium</option>
-                                                    <option value="Author">Author</option>
-                                                    <option value="Moderator">Moderator</option>
-                                                    <option value="Administrator">Administrator</option>
-                                                </select>
-                                            </label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
-                                        <button class="button" type="button" data-toggle="change-categories2">Change
-                                            Categories</button>
-                                        <div class="dropdown-pane" id="change-categories2" data-dropdown>
-                                            <legend>Choose Categories</legend>
-                                            <input id="C1" type="checkbox"><label for="C1">CategoryName 1</label><br>
-                                            <input id="C2" type="checkbox"><label for="C2">CategoryName 2</label><br>
-                                            <input id="C3" type="checkbox"><label for="C3">CategoryName 3</label><br>
-                                            <input id="C4" type="checkbox"><label for="C4">CategoryName 4</label><br>
-                                            <input id="C5" type="checkbox"><label for="C5">CategoryName 5</label><br>
-                                            <input id="C6" type="checkbox"><label for="C6">CategoryName 6</label><br>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
+                                        <br>
                                     </div>
-                                </div>
-                                <div class="media-object">
-                                    <div class="media-object-section">
-                                        <a href="#0"> <img class="ImgSidebar" src="./images/User man.png"
-                                                alt="image for members"> </a>
-                                    </div>
-                                    <div class="media-object-section">
-                                        <h6><a href="#0">Leonel Castañeda</a></h6>
-                                        <div class="grid-x">
-                                            <div class="cell large-3">
-                                                <p>Active:</p>
-                                            </div>
-                                            <div class="cell large-9">
-                                                <div class="ActiveUser">
-                                                    <div class="switch tiny">
-                                                        <input class="switch-input" id="tinySwitch6" type="checkbox"
-                                                            name="Switch6">
-                                                        <label class="switch-paddle" for="tinySwitch6">
-                                                            <span class="show-for-sr">Tiny Sandwiches Enabled</span>
-                                                        </label>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p>Role:&nbsp;&nbsp;<span>Premium Member</span></p>
-                                        <p>Subscription until September 27, 2019</p>
-                                        <button class="button" type="button" data-toggle="change-subscription6">Change
-                                            Subscription</button>
-                                        <div class="dropdown-pane" id="change-subscription6" data-dropdown>
-                                            <label>Year
+                                    <div class="tabs-panel" id="modulepanel3">
+                                        <h4>Estadisticas de la Pagina</h4>
+                                        <hr>
+                                        <img id="ReportImg" src="./images/report.png" alt="image for reports">
+                                        <button class="expanded button" type="button" data-toggle="download-report">Descargar Reporte de Anuncios</button>
+                                        <div class="dropdown-pane" id="download-report" data-dropdown>
+                                            <label>Reportes:
                                                 <select>
-                                                    <option value="2019">2019</option>
-                                                    <option value="2020">2020</option>
-                                                    <option value="2021">2021</option>
-                                                    <option value="2022">2022</option>
+                                                    <option value="January">Por total de clicks por anuncio</option>
+                                                    <option value="February">Por total de clicks por página</option>
                                                 </select>
                                             </label>
-                                            <label>Month
-                                                <select>
-                                                    <option value="January">January</option>
-                                                    <option value="February">February</option>
-                                                    <option value="March">March</option>
-                                                    <option value="April">April</option>
-                                                    <option value="May">May</option>
-                                                    <option value="June">June</option>
-                                                    <option value="July">July</option>
-                                                    <option value="August">August</option>
-                                                    <option value="September">September</option>
-                                                    <option value="October">October</option>
-                                                    <option value="November">November</option>
-                                                    <option value="December">December</option>
-                                                </select>
-                                            </label>
-                                            <label>Day<input type="number" value="1"></label>
-                                            <button type="tiny button" class="success button">Save</button>
+                                            <button type="tiny button" class="success button">Descargar</button>
                                         </div>
-                                        <button class="button" type="button" data-toggle="change-role6">Change
-                                            Role</button>
-                                        <div class="dropdown-pane" id="change-role6" data-dropdown>
-                                            <label>Role
-                                                <select>
-                                                    <option value="Free">Free</option>
-                                                    <option value="Premium">Premium</option>
-                                                    <option value="Author">Author</option>
-                                                    <option value="Moderator">Moderator</option>
-                                                    <option value="Administrator">Administrator</option>
-                                                </select>
-                                            </label>
-                                            <button type="tiny button" class="success button">Save</button>
-                                        </div>
+                                        <br>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <hr>
-                        <br>
-                        <div class="Pages">
-                            <ul class="pagination" role="navigation" aria-label="Pagination">
-                                <li class="disabled">Previous <span class="show-for-sr">page</span></li>
-                                <li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-                                <li><a href="#0" aria-label="Page 2">2</a></li>
-                                <li><a href="#0" aria-label="Page 3">3</a></li>
-                                <li><a href="#0" aria-label="Page 4">4</a></li>
-                                <li class="ellipsis" aria-hidden="true"></li>
-                                <li><a href="#0" aria-label="Page 9">9</a></li>
-                                <li><a href="#0" aria-label="Page 10">10</a></li>
-                                <li><a href="#0" aria-label="Next page">Next <span class="show-for-sr">page</span></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <br>
                     </div>
                     <div class="tabs-panel" id="panel2">
                         <div class="grid-x">
@@ -596,7 +747,7 @@
                                             Update</button>
                                         <div class="dropdown-pane" id="update-nicknames" data-dropdown>
                                             <label>Update:
-                                                <textarea placeholder="Write something..."></textarea>
+                                                <input type="text" placeholder="Write something...">
                                             </label>
                                             <button type="tiny button" class="success button">Save</button>
                                         </div>
@@ -615,25 +766,208 @@
                                         <br>
                                     </div>
                                     <div class="tabs-panel" id="infopanel2">
-                                        <p>SubTwo</p>
+                                        <h4>Empleo</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-job">+ Update</button>
+                                        <div class="dropdown-pane" id="update-job" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Aptitudes Profesionales</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-aptitudes">+
+                                            Update</button>
+                                        <div class="dropdown-pane" id="update-aptitudes" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write something..."></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Universidad</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-university">+
+                                            Update</button>
+                                        <div class="dropdown-pane" id="update-university" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Escuela Secundaria</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-school">+
+                                            Update</button>
+                                        <div class="dropdown-pane" id="update-school" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
                                     </div>
                                     <div class="tabs-panel" id="infopanel3">
-                                        <p>SubThree</p>
+                                        <h4>Ciudad Actual y Ciudad de Origen</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-city">+ Update</button>
+                                        <div class="dropdown-pane" id="update-city" data-dropdown>
+                                            <label>Update actual city:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <label>Update home city:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Otros Lugares</h4>
+                                        <hr>
+                                        <p>Lorem ipsum...</p>
+                                        <button class="button" type="button" data-toggle="update-places">+
+                                            Update</button>
+                                        <div class="dropdown-pane" id="update-places" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
                                     </div>
                                     <div class="tabs-panel" id="infopanel4">
-                                        <p>SubFour</p>
+                                        <h4>Informacion de Contacto</h4>
+                                        <hr>
+                                        <p>Telefonos celulares: <span>1234-5678</span></p>
+                                        <p>Correo electronico: <a href="#0">username@publicnews.com</a></p>
+                                        <p>Direccion de negocio: <span>Lorem ipsum...</span></p>
+                                        <p>Publicnews link: <a href="#0">https://www.publicnews.com/Username</a></p>
+                                        <button class="button" type="button" data-toggle="update-cellphone">+
+                                            Cellphone</button>
+                                        <div class="dropdown-pane" id="update-cellphone" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-business-email">+
+                                            Business Email</button>
+                                        <div class="dropdown-pane" id="update-business-email" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-business-address">+
+                                            Business Address</button>
+                                        <div class="dropdown-pane" id="update-business-address" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write something..."></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Enlaces Sociales</h4>
+                                        <hr>
+                                        <p>Facebook: <a href="#0">UsernameFB</a></p>
+                                        <p>Twitter: <a href="#0">UsernameTW</a></p>
+                                        <button class="button" type="button" data-toggle="update-social">+
+                                            Social</button>
+                                        <div class="dropdown-pane" id="update-social" data-dropdown>
+                                            <label>Social Media
+                                                <select id="select" required>
+                                                    <option value="facebook">Facebook</option>
+                                                    <option value="twitter">Twitter</option>
+                                                    <option value="instagram">Instagram</option>
+                                                    <option value="youtube">Youtube</option>
+                                                    <option value="otro">Otro</option>
+                                                </select>
+                                            </label>
+                                            <label>Update URL:
+                                                <input type="text" placeholder="https://facebook.com/****"
+                                                    pattern="url">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
+                                        <h4>Informacion Basica</h4>
+                                        <hr>
+                                        <p>Fecha de nacimiento: <span>00 de Mes de 0000</span></p>
+                                        <p>Genero: <span>Lorem ipsum...</span></p>
+                                        <p>Idiomas: <span>Lorem ipsum...</span></p>
+                                        <p>Intereses: <span>Lorem ipsum...</span></p>
+                                        <button class="button" type="button" data-toggle="update-birth">+ Date of
+                                            Birth</button>
+                                        <div class="dropdown-pane" id="update-birth" data-dropdown>
+                                            <label>Day<input type="number" value="1"></label>
+                                            <label>Month
+                                                <select>
+                                                    <option value="January">January</option>
+                                                    <option value="February">February</option>
+                                                    <option value="March">March</option>
+                                                    <option value="April">April</option>
+                                                    <option value="May">May</option>
+                                                    <option value="June">June</option>
+                                                    <option value="July">July</option>
+                                                    <option value="August">August</option>
+                                                    <option value="September">September</option>
+                                                    <option value="October">October</option>
+                                                    <option value="November">November</option>
+                                                    <option value="December">December</option>
+                                                </select>
+                                            </label>
+                                            <label>Year<input type="number" value="1919"></label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-gender">+
+                                            Gender</button>
+                                        <div class="dropdown-pane" id="update-gender" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-languages">+
+                                            Languages</button>
+                                        <div class="dropdown-pane" id="update-languages" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write something...">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-interests">+
+                                            Interests</button>
+                                        <div class="dropdown-pane" id="update-interests" data-dropdown>
+                                            <label>Update:
+                                                <textarea placeholder="Write something..."></textarea>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
                                     </div>
                                     <div class="tabs-panel" id="infopanel5">
                                         <h4>Informacion de Pago</h4>
                                         <hr>
                                         <p>Datos de la tarjeta: <span>XXXX-XXXX-XXXX-X117</span></p>
-                                        <p>Direccion de Facturacion: <span>Lorem ipsum...</span></p>
+                                        <p>Codigo de seguridad: <span>XXXX</span></p>
+                                        <p>Direccion de facturacion: <span>Lorem ipsum...</span></p>
                                         <p>Tiempo de suscripcion: <span>9 meses restantes.</span></p>
                                         <button class="button" type="button" data-toggle="update-card">+
                                             Card</button>
                                         <div class="dropdown-pane" id="update-card" data-dropdown>
                                             <label>Update:
-                                                <textarea placeholder="Write your card number"></textarea>
+                                                <input type="text" placeholder="Write your card number">
+                                            </label>
+                                            <label>Security Code:
+                                                <input type="text" placeholder="Write your security code">
                                             </label>
                                             <button type="tiny button" class="success button">Save</button>
                                         </div>
@@ -648,7 +982,7 @@
                                         <button class="button" type="button" data-toggle="update-subscription">+
                                             Subscription</button>
                                         <div class="dropdown-pane" id="update-subscription" data-dropdown>
-                                            <label>Time:                                                <select>
+                                            <label>Time: <select>
                                                     <option value="6Months">6 Months</option>
                                                     <option value="1Year">1 Year</option>
                                                 </select>
@@ -658,7 +992,49 @@
                                         <br>
                                     </div>
                                     <div class="tabs-panel" id="infopanel6">
-                                        <p>SubSix</p>
+                                        <h4>Seguridad</h4>
+                                        <hr>
+                                        <p>Nombre de Usuario: <span>Username</span></p>
+                                        <p>Correo Electronico: <span>username@publicnews.com</span></p>
+                                        <p>Contraseña: <span>*************</span></p>
+                                        <button class="button" type="button" data-toggle="update-username">+
+                                            Username</button>
+                                        <div class="dropdown-pane" id="update-username" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write your new username">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-email">+
+                                            Email</button>
+                                        <div class="dropdown-pane" id="update-email" data-dropdown>
+                                            <label>Update:
+                                                <input type="text" placeholder="Write your new email">
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <button class="button" type="button" data-toggle="update-password">+
+                                            Password</button>
+                                        <div class="dropdown-pane" id="update-password" data-dropdown>
+                                            <label>Update:
+                                                <input type="password" id="password"
+                                                    placeholder="Write your new password"
+                                                    aria-describedby="exampleHelpText" required>
+                                                <span class="form-error">
+                                                    Este campo es obligatorio!
+                                                </span>
+                                            </label>
+                                            <label>Re-enter Password
+                                                <input type="password" placeholder="Write your new password again"
+                                                    aria-describedby="exampleHelpText2" required pattern="alpha_numeric"
+                                                    data-equalto="password">
+                                                <span class="form-error">
+                                                    Las contraseñas no son iguales
+                                                </span>
+                                            </label>
+                                            <button type="tiny button" class="success button">Save</button>
+                                        </div>
+                                        <br>
                                     </div>
                                 </div>
                             </div>
@@ -758,6 +1134,15 @@
                         <br>
                     </div>
                     <div class="tabs-panel" id="panel4">
+                        <button class="expanded button" type="button" data-toggle="update-photos">Agregar Foto</button>
+                        <div class="dropdown-pane" id="update-photos" data-dropdown>
+                            <label>Upload:
+                                <br>
+                                <a href="#0"><img src="./images/addimage.png" alt="image for upload"></a>
+                            </label>
+                            <br>
+                            <button type="tiny button" class="success button">Save</button>
+                        </div>
                         <div class="grid-x">
                             <div class="cell large-4">
                                 <div class="grid-y">
@@ -831,7 +1216,14 @@
                             <div class="grid-x">
                                 <div class="cell large-4">
                                     <div class="media-object-section">
-                                        <a href="#0"> <img src="./images/Lorem300.jpg" alt="image for article"> </a>
+                                        <div class="Box">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg" alt="image for article">
+                                                <div class="BoxTR">
+                                                    <img id="FreePremiumU" src="./images/Premium.png"
+                                                        alt="image for classification">
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="cell large-8">
@@ -864,7 +1256,14 @@
                             <div class="grid-x">
                                 <div class="cell large-4">
                                     <div class="media-object-section">
-                                        <a href="#0"> <img src="./images/Lorem300.jpg" alt="image for article"> </a>
+                                        <div class="Box">
+                                            <a href="#0"> <img src="./images/Lorem1080.jpg" alt="image for article">
+                                                <div class="BoxTR">
+                                                    <img id="FreePremiumU" src="./images/Free.png"
+                                                        alt="image for classification">
+                                                </div>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="cell large-8">
