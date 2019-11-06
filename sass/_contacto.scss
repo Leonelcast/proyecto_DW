@@ -32,6 +32,13 @@
        .icon{
            @include volumen(25px, 25px);
        } 
+
+       .ContactAdvertisement{
+            margin-top: 50px;
+            text-align: center;
+            @include volumen(250px, 125px);
+            @extend %imagen-centrada;
+       }
     }
 }
 

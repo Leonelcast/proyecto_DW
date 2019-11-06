@@ -15,7 +15,7 @@
     }
 
     .AboutBody{
-        img{
+        #ImgHistory{
             @include volumen(100%, 100%);
             @media(min-width: 600px){
                 @include volumen(100%, 100%);
@@ -64,6 +64,12 @@
             border: $colorgrisoscuro 1px solid;
             @include relleno(15px, 15px, 5px, 5px);
             @include margen(20px, 20px, 5px, 5px);
+        }
+
+        .AboutAdvertisement{
+            text-align: center;
+            @include volumen(250px, 125px);
+            @extend %imagen-centrada;
         }
     }
 }

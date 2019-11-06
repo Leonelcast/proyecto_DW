@@ -1,4 +1,4 @@
-.ImgContact, #ReportImg, .AdvModule #AdvImg, #FreePremiumU, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, #FreePremiumY, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, #FreePremiumX, .ImgSidebar, .CategoryArticles img {
+.ImgContact, #ReportImg, .AdvModule #AdvImg, #FreePremiumU, .ImgUserPhotos, .UserAdvertisement, #ImgUser, #ImgUserHeader, .ContactForm .ContactBody .ContactAdvertisement, .AboutUs .AboutBody .AboutAdvertisement, #FreePremiumY, .CategoryAdvertisementBody img, #ImgArtSidebar, #IH4, #IH3, #IH2, #IH1, #FreePremiumX, .ImgSidebar, .CategoryArticles img {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -309,18 +309,18 @@ a {
     height: 600px;
   }
 }
-.AboutUs .AboutBody img {
+.AboutUs .AboutBody #ImgHistory {
   width: 100%;
   height: 100%;
 }
 @media (min-width: 600px) {
-  .AboutUs .AboutBody img {
+  .AboutUs .AboutBody #ImgHistory {
     width: 100%;
     height: 100%;
   }
 }
 @media (min-width: 1200px) {
-  .AboutUs .AboutBody img {
+  .AboutUs .AboutBody #ImgHistory {
     width: 100%;
     height: 350px;
   }
@@ -374,6 +374,11 @@ a {
   margin-right: 5px;
   margin-left: 5px;
 }
+.AboutUs .AboutBody .AboutAdvertisement {
+  text-align: center;
+  width: 250px;
+  height: 125px;
+}
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------- CONTACTO ESTILOS ----------------------------------------------------------------*/
@@ -424,6 +429,12 @@ a {
 .ContactForm .ContactBody .icon {
   width: 25px;
   height: 25px;
+}
+.ContactForm .ContactBody .ContactAdvertisement {
+  margin-top: 50px;
+  text-align: center;
+  width: 250px;
+  height: 125px;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------*/
